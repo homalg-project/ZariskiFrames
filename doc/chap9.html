@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>GAP (ZariskiFrames) - Chapter 9: The frame of Zariski open subsets in a projective variety</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="GAPDoc2HTML" />
+<link rel="stylesheet" type="text/css" href="manual.css" />
+<script src="manual.js" type="text/javascript"></script>
+<script type="text/javascript">overwriteStyle();</script>
+</head>
+<body class="chap9"  onload="jscontent()">
+
+
+<div class="chlinktop"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chap2.html">2</a>  <a href="chap3.html">3</a>  <a href="chap4.html">4</a>  <a href="chap5.html">5</a>  <a href="chap6.html">6</a>  <a href="chap7.html">7</a>  <a href="chap8.html">8</a>  <a href="chap9.html">9</a>  <a href="chap10.html">10</a>  <a href="chap11.html">11</a>  <a href="chap12.html">12</a>  <a href="chap13.html">13</a>  <a href="chapInd.html">Ind</a>  </div>
+
+<div class="chlinkprevnexttop">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap8.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap10.html">[Next Chapter]</a>&nbsp;  </div>
+
+<p id="mathjaxlink" class="pcenter"><a href="chap9_mj.html">[MathJax on]</a></p>
+<p><a id="X7CE5378780BC2660" name="X7CE5378780BC2660"></a></p>
+<div class="ChapSects"><a href="chap9.html#X7CE5378780BC2660">9 <span class="Heading">The frame of Zariski open subsets in a projective variety</span></a>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap9.html#X7D03633A7D98026B">9.1 <span class="Heading">GAP Categories</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7BA93C9D7BE8157C">9.1-1 IsObjectInZariskiFrameOfAProjectiveVariety</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7B65C7B6857D35A2">9.1-2 IsMorphismInZariskiFrameOfAProjectiveVariety</a></span>
+</div></div>
+<div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap9.html#X86EC0F0A78ECBC10">9.2 <span class="Heading">Constructors</span></a>
+</span>
+<div class="ContSSBlock">
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7AC52C3F7AA2C637">9.2-1 ZariskiFrameOfProjUsingCategoryOfRows</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7FDB577884679A34">9.2-2 OpenSubsetOfProj</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7E6E76B88770A9ED">9.2-3 OpenSubsetOfProjByReducedMorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X82497703813B8756">9.2-4 OpenSubsetOfProjByListOfMorphismsOfRank1Range</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7EACDAE77D236841">9.2-5 OpenSubsetOfProjByStandardMorphism</a></span>
+</div></div>
+</div>
+
+<h3>9 <span class="Heading">The frame of Zariski open subsets in a projective variety</span></h3>
+
+<p><a id="X7D03633A7D98026B" name="X7D03633A7D98026B"></a></p>
+
+<h4>9.1 <span class="Heading">GAP Categories</span></h4>
+
+<p><a id="X7BA93C9D7BE8157C" name="X7BA93C9D7BE8157C"></a></p>
+
+<h5>9.1-1 IsObjectInZariskiFrameOfAProjectiveVariety</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsObjectInZariskiFrameOfAProjectiveVariety</code>( <var class="Arg">object</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of objects in a Zariski frame of a projective variety.</p>
+
+<p><a id="X7B65C7B6857D35A2" name="X7B65C7B6857D35A2"></a></p>
+
+<h5>9.1-2 IsMorphismInZariskiFrameOfAProjectiveVariety</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsMorphismInZariskiFrameOfAProjectiveVariety</code>( <var class="Arg">morphism</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of morphisms in a Zariski frame of a projective variety.</p>
+
+<p><a id="X86EC0F0A78ECBC10" name="X86EC0F0A78ECBC10"></a></p>
+
+<h4>9.2 <span class="Heading">Constructors</span></h4>
+
+<p><a id="X7AC52C3F7AA2C637" name="X7AC52C3F7AA2C637"></a></p>
+
+<h5>9.2-1 ZariskiFrameOfProjUsingCategoryOfRows</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ZariskiFrameOfProjUsingCategoryOfRows</code>( <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<p>Returns: a <strong class="pkg">CAP</strong> category</p>
+
+<p>Construct the Zariski frame of open sets in a projective variety defined as the complements of vanishing loci of (radical) ideals of a <strong class="pkg">homalg</strong> ring <var class="Arg">R</var>.</p>
+
+<p><a id="X7FDB577884679A34" name="X7FDB577884679A34"></a></p>
+
+<h5>9.2-2 OpenSubsetOfProj</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProj</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProj</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProj</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a <strong class="pkg">CAP</strong> object</p>
+
+<p>Construct a Zariski open subset (as an object in the Zariski frame of open subsets in a projective variety) from a morphism <var class="Arg">I</var>=<code class="code">AsMorphismInCategoryOfRows</code>( <var class="Arg">mat</var> ) in the category of (graded) rows. The result is the projective non-support of the module-theoretic cokernel <span class="SimpleMath">M</span> of the morphism <var class="Arg">I</var> in the associated Freyd category, i.e., the result is the complement of the projective vanishing locus of the (homogeneous) annihilator of <span class="SimpleMath">M</span>.</p>
+
+<p><a id="X7E6E76B88770A9ED" name="X7E6E76B88770A9ED"></a></p>
+
+<h5>9.2-3 OpenSubsetOfProjByReducedMorphism</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByReducedMorphism</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByReducedMorphism</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByReducedMorphism</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">OpenSubsetOfProjByReducedMorphism</code> assumes that the image is a radical ideal.</p>
+
+<p><a id="X82497703813B8756" name="X82497703813B8756"></a></p>
+
+<h5>9.2-4 OpenSubsetOfProjByListOfMorphismsOfRank1Range</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByListOfMorphismsOfRank1Range</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><a id="X7EACDAE77D236841" name="X7EACDAE77D236841"></a></p>
+
+<h5>9.2-5 OpenSubsetOfProjByStandardMorphism</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByStandardMorphism</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByStandardMorphism</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByStandardMorphism</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">OpenSubsetOfProjByStandardMorphism</code> assumes that the image is a radical ideal given by some sort of a "standard" basis.</p>
+
+
+<div class="chlinkprevnextbot">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap8.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap10.html">[Next Chapter]</a>&nbsp;  </div>
+
+
+<div class="chlinkbot"><span class="chlink1">Goto Chapter: </span><a href="chap0.html">Top</a>  <a href="chap1.html">1</a>  <a href="chap2.html">2</a>  <a href="chap3.html">3</a>  <a href="chap4.html">4</a>  <a href="chap5.html">5</a>  <a href="chap6.html">6</a>  <a href="chap7.html">7</a>  <a href="chap8.html">8</a>  <a href="chap9.html">9</a>  <a href="chap10.html">10</a>  <a href="chap11.html">11</a>  <a href="chap12.html">12</a>  <a href="chap13.html">13</a>  <a href="chapInd.html">Ind</a>  </div>
+
+<hr />
+<p class="foot">generated by <a href="http://www.math.rwth-aachen.de/~Frank.Luebeck/GAPDoc">GAPDoc2HTML</a></p>
+</body>
+</html>
