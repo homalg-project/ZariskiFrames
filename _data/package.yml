@@ -1,7 +1,7 @@
 name: ZariskiFrames
-version: "2020.07.01"
+version: "2020.07.03"
 license: "GPL-2.0-or-later"
-date: 2020-07-01
+date: 2020-07-03
 description: |
     (Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties
 
@@ -11,7 +11,7 @@ authors:
     - name: Tom Kuhmichel
       url: https://github.com/TKuh
     - name: Markus Lange-Hegermann
-      url: https://www.hs-owl.de/fb5/fachbereich/fachgebiete/md/team/prof-dr-markus-lange-hegermann.html
+      url: https://www.th-owl.de/eecs/fachbereich/team/markus-lange-hegermann/
 
 maintainers:
     - name: Mohamed Barakat
@@ -30,7 +30,7 @@ needed-pkgs:
       url: "https://homalg-project.github.io/CAP_project/CAP"
     - name: "Toposes"
       version: ">= 2019.01.20"
-      url: "https://github.com/homalg-project/Toposes"
+      url: "https://homalg-project.github.io/Toposes"
     - name: "Locales"
       version: ">= 2019.11.13"
       url: "https://homalg-project.github.io/Locales"
@@ -63,7 +63,7 @@ packageinfo: https://homalg-project.github.io/ZariskiFrames/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2020.07.01/ZariskiFrames-2020.07.01.tar.gz
+      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2020.07.03/ZariskiFrames-2020.07.03.tar.gz
 
 abstract: |
 
@@ -76,7 +76,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BKL20</span>]   <b class='BibAuthor'>Barakat, M., Kuhmichel, T. and Lange-Hegermann, M.</b>,
      <i class='BibTitle'>ZariskiFrames, (Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties,
-             Version 2020.07.01</i>
+             Version 2020.07.03</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/ZariskiFrames">https://homalg-project.github.io/ZariskiFrames</a></span>.
@@ -84,9 +84,9 @@ citeas: |
     
 
 bibtex: |
-    @misc{ ZariskiFrames2020.07.01,
+    @misc{ ZariskiFrames2020.07.03,
       author =           {Barakat, M. and Kuhmichel, T. and Lange-Hegermann, M.},
-      title =            {{ZariskiFrames}, (Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties, {V}ersion 2020.07.01},
+      title =            {{ZariskiFrames}, (Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties, {V}ersion 2020.07.03},
       month =            {Jul},
       year =             {2020},
       note =             {GAP package},
