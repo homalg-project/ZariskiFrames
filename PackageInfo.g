@@ -11,15 +11,15 @@ SetPackageInfo( rec(
 PackageName := "ZariskiFrames",
 Subtitle := "(Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties",
 Version := Maximum( [
-                   "2020.09.01", ## Mohamed's version
+                   "2020.10-01", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2019.06.02", ## Markus's version
                    ## this line prevents merge conflicts
                    "2019.06.05", ## Tom's version
                    ] ),
 
-Date := ~.Version{[ 1 .. 10 ]},
-Date := Concatenation( ~.Version{[ 9, 10 ]}, "/", ~.Version{[ 6, 7 ]}, "/", ~.Version{[ 1 .. 4 ]} ),
+Date := "17/10/2020",
+Date := "17/10/2020",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -81,7 +81,7 @@ README_URL      := "https://homalg-project.github.io/ZariskiFrames/README.md",
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/ZariskiFrames/releases/download/v", ~.Version, "/ZariskiFrames-", ~.Version ),
 # END URLS
 
-ArchiveFormats := ".tar.gz",
+ArchiveFormats := ".tar.gz .zip",
 
 ##  Status information. Currently the following cases are recognized:
 ##    "accepted"      for successfully refereed packages
