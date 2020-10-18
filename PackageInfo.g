@@ -11,15 +11,15 @@ SetPackageInfo( rec(
 PackageName := "ZariskiFrames",
 Subtitle := "(Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties",
 Version := Maximum( [
-                   "2020.10-02", ## Mohamed's version
+                   "2020.10-03", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2019.06.02", ## Markus's version
                    ## this line prevents merge conflicts
                    "2019.06.05", ## Tom's version
                    ] ),
 
-Date := "17/10/2020",
-Date := "17/10/2020",
+Date := "18/10/2020",
+Date := "18/10/2020",
 License := "GPL-2.0-or-later",
 
 Persons := [
