@@ -1,7 +1,7 @@
 name: ZariskiFrames
-version: "2020.10-03"
+version: "2020.11-03"
 license: "GPL-2.0-or-later"
-date: 2020-10-18
+date: 2020-11-08
 description: |
     (Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties
 
@@ -32,7 +32,7 @@ needed-pkgs:
       version: ">= 2019.01.20"
       url: "https://homalg-project.github.io/Toposes"
     - name: "Locales"
-      version: ">= 2019.11.13"
+      version: ">= 2020.10-07"
       url: "https://homalg-project.github.io/Locales"
     - name: "MatricesForHomalg"
       version: ">= 2019.07.01"
@@ -48,7 +48,7 @@ needed-pkgs:
       url: "https://homalg-project.github.io/homalg_project/GradedRingForHomalg"
     - name: "FreydCategoriesForCAP"
       version: ">= 2019.11.02"
-      url: "https://github.com/homalg-project/CAP_project/tree/master/FreydCategoriesForCAP"
+      url: "https://homalg-project.github.io/CAP_project/FreydCategoriesForCAP"
 
 suggested-pkgs:
     - name: "IO_ForHomalg"
@@ -63,11 +63,11 @@ packageinfo: https://homalg-project.github.io/ZariskiFrames/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2020.10-03/ZariskiFrames-2020.10-03.tar.gz
+      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2020.11-03/ZariskiFrames-2020.11-03.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2020.10-03/ZariskiFrames-2020.10-03.zip
+      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2020.11-03/ZariskiFrames-2020.11-03.zip
 
-pdf: https://github.com/homalg-project/ZariskiFrames/releases/download/v2020.10-03/ZariskiFrames-2020.10-03.pdf
+pdf: https://github.com/homalg-project/ZariskiFrames/releases/download/v2020.11-03/ZariskiFrames-2020.11-03.pdf
 
 abstract: |
 
@@ -80,7 +80,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BKL20</span>]   <b class='BibAuthor'>Barakat, M., Kuhmichel, T. and Lange-Hegermann, M.</b>,
      <i class='BibTitle'>ZariskiFrames, (Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties,
-             Version 2020.10-03</i>
+             Version 2020.11-03</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/ZariskiFrames">https://homalg-project.github.io/ZariskiFrames</a></span>.
@@ -88,12 +88,12 @@ citeas: |
     
 
 bibtex: |
-    @misc{ ZariskiFrames2020.10-03,
+    @misc{ ZariskiFrames2020.11-03,
       author =           {Barakat, M. and Kuhmichel, T. and Lange-Hegermann, M.},
       title =            {{ZariskiFrames},    (Co)frames/Locales    of   Zariski
                           closed/open  subsets  of  affine, projective, or toric
-                          varieties, {V}ersion 2020.10-03},
-      month =            {Oct},
+                          varieties, {V}ersion 2020.11-03},
+      month =            {Nov},
       year =             {2020},
       note =             {GAP package},
       howpublished =     {\href {https://homalg-project.github.io/ZariskiFrames}

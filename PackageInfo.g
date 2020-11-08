@@ -11,15 +11,15 @@ SetPackageInfo( rec(
 PackageName := "ZariskiFrames",
 Subtitle := "(Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties",
 Version := Maximum( [
-                   "2020.10-03", ## Mohamed's version
+                   "2020.11-03", ## Mohamed's version
                    ## this line prevents merge conflicts
-                   "2019.06.02", ## Markus's version
+                   "2019.06-02", ## Markus's version
                    ## this line prevents merge conflicts
-                   "2019.06.05", ## Tom's version
+                   "2019.06-05", ## Tom's version
                    ] ),
 
-Date := "18/10/2020",
-Date := "18/10/2020",
+Date := "08/11/2020",
+Date := "08/11/2020",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -110,7 +110,7 @@ Dependencies := rec(
                    [ "GAPDoc", ">= 1.5" ],
                    [ "CAP", ">= 2019.01.16" ],
                    [ "Toposes", ">= 2019.01.20" ],
-                   [ "Locales", ">= 2019.11.13" ],
+                   [ "Locales", ">= 2020.10-07" ],
                    [ "MatricesForHomalg", ">= 2019.07.01" ],
                    [ "GaussForHomalg", ">= 2019.01.10" ],
                    [ "RingsForHomalg", ">= 2018.12.07" ],

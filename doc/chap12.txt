@@ -16,7 +16,12 @@
   [33X[1;0Y[29X[2XDecreaseCodimensionByFixingVariables[102X( [3XA[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya list[133X
   
-  [1X12.2-2 LocallyClosedApproximationOfProjection[101X
+  [1X12.2-2 ClosedSubsetWithGenericallyZeroDimensionalFibersOnComponentOfProjection[101X
+  
+  [33X[1;0Y[29X[2XClosedSubsetWithGenericallyZeroDimensionalFibersOnComponentOfProjection[102X( [3XA[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya list[133X
+  
+  [1X12.2-3 LocallyClosedApproximationOfProjection[101X
   
   [33X[1;0Y[29X[2XLocallyClosedApproximationOfProjection[102X( [3XA[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya list[133X
@@ -26,7 +31,7 @@
   subsets  of  [3XA[103X  which  upon  projection  yield  the  remaining  parts of the
   constructible projection of [3XA[103X.[133X
   
-  [1X12.2-3 LocallyClosedApproximationOfImage[101X
+  [1X12.2-4 LocallyClosedApproximationOfImage[101X
   
   [33X[1;0Y[29X[2XLocallyClosedApproximationOfImage[102X( [3Xphi[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya list[133X
@@ -36,7 +41,27 @@
   subsets  of  the domain of [3Xphi[103X the images of which yield the remaining parts
   of the constructible image of [3Xphi[103X.[133X
   
-  [1X12.2-4 ConstructibleProjection[101X
+  [1X12.2-5 LocallyClosedApproximationOfProjectionViaGenericFreeness[101X
+  
+  [33X[1;0Y[29X[2XLocallyClosedApproximationOfProjectionViaGenericFreeness[102X( [3XA[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya list[133X
+  
+  [33X[0;0YA  list  consisting  of  two  entries.  The  first entry is a locally closed
+  approximation  of  the  projection of [3XA[103X (using generic freeness). The second
+  entry  is  a  list  of  closed  subsets of [3XA[103X which upon projection yield the
+  remaining parts of the constructible projection of [3XA[103X.[133X
+  
+  [1X12.2-6 LocallyClosedApproximationOfImageViaGenericFreeness[101X
+  
+  [33X[1;0Y[29X[2XLocallyClosedApproximationOfImageViaGenericFreeness[102X( [3Xphi[103X ) [32X operation[133X
+  [6XReturns:[106X  [33X[0;10Ya list[133X
+  
+  [33X[0;0YA  list  consisting  of  two  entries.  The  first entry is a locally closed
+  approximation of the image of [3Xphi[103X (using generic freeness). The second entry
+  is  a  list of closed subsets of the domain of [3Xphi[103X the images of which yield
+  the remaining parts of the constructible image of [3Xphi[103X.[133X
+  
+  [1X12.2-7 ConstructibleProjection[101X
   
   [33X[1;0Y[29X[2XConstructibleProjection[102X( [3XA[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya constructible object as a union of formal multiple differences[133X
@@ -166,7 +191,7 @@
     [4X[28XV( <> ) \ V( <2> ) \ V( <5> )[128X[104X
   [4X[32X[104X
   
-  [1X12.2-5 ConstructibleImage[101X
+  [1X12.2-8 ConstructibleImage[101X
   
   [33X[1;0Y[29X[2XConstructibleImage[102X( [3Xphi[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya constructible object as a union of formal multiple differences[133X
@@ -174,7 +199,7 @@
   [33X[0;0YCompute  the  image  of  the  morphism defined by the morphism [3Xphi[103X of affine
   rings as a constructible subset.[133X
   
-  [1X12.2-6 Visualize[101X
+  [1X12.2-9 Visualize[101X
   
   [33X[1;0Y[29X[2XVisualize[102X( [3XA[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XVisualizeInJulia[102X( [3Xarg[103X ) [32X operation[133X

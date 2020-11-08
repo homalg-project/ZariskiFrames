@@ -7,10 +7,10 @@
                                 toric varieties [101X
   
   
-                                   2020.10-03
+                                   2020.11-03
   
   
-                                18 October 2020
+                                8 November 2020
   
   
                                 Mohamed Barakat
@@ -145,10 +145,11 @@
       6.2-8 TangentSpaceAtPoint
   7 [33X[0;0YRelative affine varieties[133X
     7.1 [33X[0;0YAttributes[133X
-      7.1-1 FunctorClosureOfProjectionBetweenZariskiCoframes
-      7.1-2 ClosureOfProjection
-      7.1-3 ClosureOfImage
-      7.1-4 FunctorPreimageOfProjectionBetweenZariskiCoframes
+      7.1-1 GraphOfRingMorphism
+      7.1-2 FunctorClosureOfProjectionBetweenZariskiCoframes
+      7.1-3 ClosureOfProjection
+      7.1-4 ClosureOfImage
+      7.1-5 FunctorPreimageOfProjectionBetweenZariskiCoframes
     7.2 [33X[0;0YOperations[133X
       7.2-1 PreimageOfProjection
       7.2-2 PreimageOfProjection
@@ -161,6 +162,7 @@
       7.2-9 EmbeddedComplementOfTangentSpaceOfFiberAtPoint
       7.2-10 EmbeddedComplementOfTangentSpaceOfFiberAtPoint
       7.2-11 ClosedSubsetWithGenericallyZeroDimensionalFibers
+      7.2-12 ClosedSubsetOfBaseWithFreeFibersOverComplement
   8 [33X[0;0Y(Co)frames/Locales of Zariski closed/open subsets in projective varieties[133X
     8.1 [33X[0;0YGAP Categories[133X
       8.1-1 IsObjectInZariskiFrameOrCoframeOfAProjectiveVariety
@@ -194,16 +196,20 @@
       11.1-1 PointsAtInfinityOfFiberwiseProjectiveClosure
       11.1-2 FunctorClosedProjectionBetweenZariskiCoframes
       11.1-3 ImageOfProjection
+      11.1-4 ProjectionOfPointsAtInfinityOfFiberwiseProjectiveClosure
   12 [33X[0;0YConstructible image[133X
     12.1 [33X[0;0YInfo Class[133X
       12.1-1 InfoConstructibleImage
     12.2 [33X[0;0YOperations[133X
       12.2-1 DecreaseCodimensionByFixingVariables
-      12.2-2 LocallyClosedApproximationOfProjection
-      12.2-3 LocallyClosedApproximationOfImage
-      12.2-4 ConstructibleProjection
-      12.2-5 ConstructibleImage
-      12.2-6 Visualize
+      12.2-2 ClosedSubsetWithGenericallyZeroDimensionalFibersOnComponentOfProjection
+      12.2-3 LocallyClosedApproximationOfProjection
+      12.2-4 LocallyClosedApproximationOfImage
+      12.2-5 LocallyClosedApproximationOfProjectionViaGenericFreeness
+      12.2-6 LocallyClosedApproximationOfImageViaGenericFreeness
+      12.2-7 ConstructibleProjection
+      12.2-8 ConstructibleImage
+      12.2-9 Visualize
   13 [33X[0;0YFurther examples[133X
   
   

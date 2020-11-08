@@ -34,11 +34,14 @@
 </span>
 <div class="ContSSBlock">
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7B80233086023560">12.2-1 DecreaseCodimensionByFixingVariables</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7AFFACA57BCA1690">12.2-2 LocallyClosedApproximationOfProjection</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7EA79B3E878893BD">12.2-3 LocallyClosedApproximationOfImage</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7ACCD1817930183F">12.2-4 ConstructibleProjection</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X83456044841E04F8">12.2-5 ConstructibleImage</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7F01E3387FF353A9">12.2-6 Visualize</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X808399F1870F4088">12.2-2 ClosedSubsetWithGenericallyZeroDimensionalFibersOnComponentOfProjection</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7AFFACA57BCA1690">12.2-3 LocallyClosedApproximationOfProjection</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7EA79B3E878893BD">12.2-4 LocallyClosedApproximationOfImage</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X8392CB3B85C62A27">12.2-5 LocallyClosedApproximationOfProjectionViaGenericFreeness</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X8330A88B7BE44895">12.2-6 LocallyClosedApproximationOfImageViaGenericFreeness</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7ACCD1817930183F">12.2-7 ConstructibleProjection</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X83456044841E04F8">12.2-8 ConstructibleImage</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap12_mj.html#X7F01E3387FF353A9">12.2-9 Visualize</a></span>
 </div></div>
 </div>
 
@@ -64,9 +67,16 @@
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; DecreaseCodimensionByFixingVariables</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a list</p>
 
+<p><a id="X808399F1870F4088" name="X808399F1870F4088"></a></p>
+
+<h5>12.2-2 ClosedSubsetWithGenericallyZeroDimensionalFibersOnComponentOfProjection</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetWithGenericallyZeroDimensionalFibersOnComponentOfProjection</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a list</p>
+
 <p><a id="X7AFFACA57BCA1690" name="X7AFFACA57BCA1690"></a></p>
 
-<h5>12.2-2 LocallyClosedApproximationOfProjection</h5>
+<h5>12.2-3 LocallyClosedApproximationOfProjection</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; LocallyClosedApproximationOfProjection</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a list</p>
@@ -75,16 +85,34 @@
 
 <p><a id="X7EA79B3E878893BD" name="X7EA79B3E878893BD"></a></p>
 
-<h5>12.2-3 LocallyClosedApproximationOfImage</h5>
+<h5>12.2-4 LocallyClosedApproximationOfImage</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; LocallyClosedApproximationOfImage</code>( <var class="Arg">phi</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a list</p>
 
 <p>A list consisting of two entries. The first entry is a locally closed approximation of the image of <var class="Arg">phi</var>. The second entry is a list of closed subsets of the domain of <var class="Arg">phi</var> the images of which yield the remaining parts of the constructible image of <var class="Arg">phi</var>.</p>
 
+<p><a id="X8392CB3B85C62A27" name="X8392CB3B85C62A27"></a></p>
+
+<h5>12.2-5 LocallyClosedApproximationOfProjectionViaGenericFreeness</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; LocallyClosedApproximationOfProjectionViaGenericFreeness</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a list</p>
+
+<p>A list consisting of two entries. The first entry is a locally closed approximation of the projection of <var class="Arg">A</var> (using generic freeness). The second entry is a list of closed subsets of <var class="Arg">A</var> which upon projection yield the remaining parts of the constructible projection of <var class="Arg">A</var>.</p>
+
+<p><a id="X8330A88B7BE44895" name="X8330A88B7BE44895"></a></p>
+
+<h5>12.2-6 LocallyClosedApproximationOfImageViaGenericFreeness</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; LocallyClosedApproximationOfImageViaGenericFreeness</code>( <var class="Arg">phi</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p>Returns: a list</p>
+
+<p>A list consisting of two entries. The first entry is a locally closed approximation of the image of <var class="Arg">phi</var> (using generic freeness). The second entry is a list of closed subsets of the domain of <var class="Arg">phi</var> the images of which yield the remaining parts of the constructible image of <var class="Arg">phi</var>.</p>
+
 <p><a id="X7ACCD1817930183F" name="X7ACCD1817930183F"></a></p>
 
-<h5>12.2-4 ConstructibleProjection</h5>
+<h5>12.2-7 ConstructibleProjection</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ConstructibleProjection</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a constructible object as a union of formal multiple differences</p>
@@ -218,7 +246,7 @@ V( &lt;&gt; ) \ V( &lt;2&gt; ) \ V( &lt;5&gt; )
 
 <p><a id="X83456044841E04F8" name="X83456044841E04F8"></a></p>
 
-<h5>12.2-5 ConstructibleImage</h5>
+<h5>12.2-8 ConstructibleImage</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ConstructibleImage</code>( <var class="Arg">phi</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a constructible object as a union of formal multiple differences</p>
@@ -227,7 +255,7 @@ V( &lt;&gt; ) \ V( &lt;2&gt; ) \ V( &lt;5&gt; )
 
 <p><a id="X7F01E3387FF353A9" name="X7F01E3387FF353A9"></a></p>
 
-<h5>12.2-6 Visualize</h5>
+<h5>12.2-9 Visualize</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; Visualize</code>( <var class="Arg">A</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; VisualizeInJulia</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
