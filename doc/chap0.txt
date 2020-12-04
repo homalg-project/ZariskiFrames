@@ -7,10 +7,10 @@
                                 toric varieties [101X
   
   
-                                   2020.11-04
+                                   2020.12-01
   
   
-                                8 November 2020
+                                4 December 2020
   
   
                                 Mohamed Barakat
@@ -162,7 +162,8 @@
       7.2-9 EmbeddedComplementOfTangentSpaceOfFiberAtPoint
       7.2-10 EmbeddedComplementOfTangentSpaceOfFiberAtPoint
       7.2-11 ClosedSubsetWithGenericallyZeroDimensionalFibers
-      7.2-12 ClosedSubsetOfBaseWithFreeFibersOverComplement
+      7.2-12 ClosedSubsetOfBaseWithFreeFibersOverComplementOrEmpty
+      7.2-13 ClosedSubsetOfBaseWithFreeFibersOverComplement
   8 [33X[0;0Y(Co)frames/Locales of Zariski closed/open subsets in projective varieties[133X
     8.1 [33X[0;0YGAP Categories[133X
       8.1-1 IsObjectInZariskiFrameOrCoframeOfAProjectiveVariety

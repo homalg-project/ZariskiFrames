@@ -11,7 +11,8 @@
   [2XAsMorphismInCategoryOfRows[102X, for IsHomalgMatrix 1.4-2 
   [2XBaseOfFibration[102X, for IsObjectInZariskiFrameOrCoframe 1.4-1 
   [2XCanonicalObject[102X, for IsObjectInZariskiFrameOrCoframe 1.4-12 
-  [2XClosedSubsetOfBaseWithFreeFibersOverComplement[102X, for IsObjectInZariskiCoframeOfAnAffineVariety 7.2-12 
+  [2XClosedSubsetOfBaseWithFreeFibersOverComplement[102X, for IsObjectInZariskiCoframeOfAnAffineVariety 7.2-13 
+  [2XClosedSubsetOfBaseWithFreeFibersOverComplementOrEmpty[102X, for IsObjectInZariskiCoframeOfAnAffineVariety 7.2-12 
   [2XClosedSubsetOfProj[102X, for IsCapCategoryMorphism 10.3-2 
       for IsHomalgMatrix 10.3-2 
       for IsString, IsHomalgRing 10.3-2 
