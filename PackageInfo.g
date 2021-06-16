@@ -16,10 +16,12 @@ Version := Maximum( [
                    "2019.06-02", ## Markus's version
                    ## this line prevents merge conflicts
                    "2019.06-05", ## Tom's version
+                   ## this line prevents merge conflicts
+                   "2021.06-01", ## Fabian's version
                    ] ),
 
-Date := "14/04/2021",
-Date := "14/04/2021",
+Date := "16/06/2021",
+Date := "16/06/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -110,7 +112,7 @@ Dependencies := rec(
                    [ "GAPDoc", ">= 1.5" ],
                    [ "CAP", ">= 2019.01.16" ],
                    [ "Toposes", ">= 2019.01.20" ],
-                   [ "Locales", ">= 2020.10-07" ],
+                   [ "Locales", ">= 2021.06-01" ],
                    [ "MatricesForHomalg", ">= 2019.07.01" ],
                    [ "GaussForHomalg", ">= 2019.01.10" ],
                    [ "RingsForHomalg", ">= 2018.12.07" ],
