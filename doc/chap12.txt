@@ -202,7 +202,6 @@
   [1X12.2-9 Visualize[101X
   
   [33X[1;0Y[29X[2XVisualize[102X( [3XA[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XVisualizeInJulia[102X( [3Xarg[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ynothing[133X
   
   [33X[0;0YOpens  a  PDF  with  the graph of datastructure underlying the constructible

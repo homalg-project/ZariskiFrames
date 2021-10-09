@@ -146,7 +146,6 @@
       for IsObjectInZariskiCoframeOfAnAffineVariety, IsList, IsList 7.2-6 
   [2XUnderlyingClosedSubsetOfSpec[102X, for IsObjectInZariskiCoframeOfAProjectiveVariety 10.2-1 
   [2XVisualize[102X, for IsConstructibleObject 12.2-9 
-  [2XVisualizeInJulia[102X, for IsConstructibleObject 12.2-9 
   [2XZariskiCoframeOfAffineSpectrumUsingCategoryOfRows[102X, for IsHomalgRing 6.2-1 
   [2XZariskiCoframeOfProjUsingCategoryOfRows[102X, for IsHomalgRing 10.3-1 
   [2XZariskiFrameOfAffineSpectrumUsingCategoryOfRows[102X, for IsHomalgRing 5.2-1 
