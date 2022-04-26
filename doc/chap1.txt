@@ -14,14 +14,14 @@
   [1X1.2-1 IsObjectInZariskiFrameOrCoframe[101X
   
   [33X[1;0Y[29X[2XIsObjectInZariskiFrameOrCoframe[102X( [3Xobject[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in a Zariski frame or coframe.[133X
   
   [1X1.2-2 IsMorphismInZariskiFrameOrCoframe[101X
   
   [33X[1;0Y[29X[2XIsMorphismInZariskiFrameOrCoframe[102X( [3Xmorphism[103X ) [32X filter[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of morphisms in a Zariski frame or coframe.[133X
   
@@ -31,7 +31,7 @@
   [1X1.3-1 IsOpen[101X
   
   [33X[1;0Y[29X[2XIsOpen[102X( [3Xarg[103X ) [32X property[133X
-  [6XReturns:[106X  [33X[0;10Y[10Xtrue[110X or [10Xfalse[110X[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [1X1.3-2 IsClosed[101X
   
@@ -393,15 +393,15 @@
     [4X[25Xgap>[125X [27XIsDoneIterator( itr );[127X[104X
     [4X[28Xfalse[128X[104X
     [4X[25Xgap>[125X [27Xa := NextIterator( itr );[127X[104X
-    [4X[28X<A 1 x 1 matrix over an external ring>[128X[104X
+    [4X[28X<An unevaluated 1 x 1 zero matrix over an external ring>[128X[104X
     [4X[25Xgap>[125X [27XDisplay( a );[127X[104X
-    [4X[28X1[128X[104X
+    [4X[28X0[128X[104X
     [4X[25Xgap>[125X [27XHomalgRing( a );[127X[104X
     [4X[28XQ[128X[104X
     [4X[25Xgap>[125X [27Xb := NextIterator( itr );[127X[104X
-    [4X[28X<An unevaluated 1 x 1 zero matrix over an external ring>[128X[104X
+    [4X[28X<A 1 x 1 matrix over an external ring>[128X[104X
     [4X[25Xgap>[125X [27XDisplay( b );[127X[104X
-    [4X[28X0[128X[104X
+    [4X[28X1[128X[104X
     [4X[25Xgap>[125X [27XHomalgRing( b );[127X[104X
     [4X[28XQ[128X[104X
     [4X[25Xgap>[125X [27XIsDoneIterator( itr );[127X[104X

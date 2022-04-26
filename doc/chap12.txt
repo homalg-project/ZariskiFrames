@@ -153,7 +153,7 @@
     [4X[25Xgap>[125X [27XW4 := ConstructibleProjection( V4 );[127X[104X
     [4X[28X( V_{Q[a]}( I1 ) \ V_{Q[a]}( J1_1 ) \ .. \ V_{Q[a]}( J1_3 ) )[128X[104X
     [4X[25Xgap>[125X [27XDisplay( W4 );[127X[104X
-    [4X[28XV( <> ) \ V( <a-1> ) \ V( <a> ) \ V( <a+1> )[128X[104X
+    [4X[28XV( <> ) \ V( <a> ) \ V( <a-1> ) \ V( <a+1> )[128X[104X
     [4X[25Xgap>[125X [27XV5 := (ClosedSubsetOfSpec( "b-a^2+1", R ) + ClosedSubsetOfSpec( "a-1", R ))[127X[104X
     [4X[25X>[125X [27X      - ClosedSubsetOfSpec( "a*b", R );[127X[104X
     [4X[28XV_{Q[a][b]}( I ) \ V_{Q[a][b]}( J )[128X[104X
@@ -162,7 +162,7 @@
     [4X[25Xgap>[125X [27XW5 := ConstructibleProjection( V5 );[127X[104X
     [4X[28X( V_{Q[a]}( I1 ) \ V_{Q[a]}( J1_1 ) \ V_{Q[a]}( J1_2 ) )[128X[104X
     [4X[25Xgap>[125X [27XDisplay( W5 );[127X[104X
-    [4X[28XV( <> ) \ V( <a> ) \ V( <a+1> )[128X[104X
+    [4X[28XV( <> ) \ V( <a+1> ) \ V( <a> )[128X[104X
     [4X[25Xgap>[125X [27XV6 := (ClosedSubsetOfSpec( "b-a^2+1", R ) + ClosedSubsetOfSpec( "a^2-1", R ))[127X[104X
     [4X[25X>[125X [27X      - ClosedSubsetOfSpec( "a*b", R );[127X[104X
     [4X[28XV_{Q[a][b]}( I ) \ V_{Q[a][b]}( J )[128X[104X

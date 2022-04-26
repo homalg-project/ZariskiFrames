@@ -100,7 +100,7 @@
 <h5>1.2-1 IsObjectInZariskiFrameOrCoframe</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsObjectInZariskiFrameOrCoframe</code>( <var class="Arg">object</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
 
 <p>The <strong class="pkg">GAP</strong> category of objects in a Zariski frame or coframe.</p>
 
@@ -109,7 +109,7 @@
 <h5>1.2-2 IsMorphismInZariskiFrameOrCoframe</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsMorphismInZariskiFrameOrCoframe</code>( <var class="Arg">morphism</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
 
 <p>The <strong class="pkg">GAP</strong> category of morphisms in a Zariski frame or coframe.</p>
 
@@ -122,7 +122,7 @@
 <h5>1.3-1 IsOpen</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsOpen</code>( <var class="Arg">arg</var> )</td><td class="tdright">(&nbsp;property&nbsp;)</td></tr></table></div>
-<p>Returns: <code class="code">true</code> or <code class="code">false</code></p>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
 
 <p><a id="X7B330CD787FD44F7" name="X7B330CD787FD44F7"></a></p>
 
@@ -528,15 +528,15 @@ V_{Q[t]}( &lt;...&gt; )
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsDoneIterator( itr );</span>
 false
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">a := NextIterator( itr );</span>
-&lt;A 1 x 1 matrix over an external ring&gt;
+&lt;An unevaluated 1 x 1 zero matrix over an external ring&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( a );</span>
-1
+0
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">HomalgRing( a );</span>
 Q
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">b := NextIterator( itr );</span>
-&lt;An unevaluated 1 x 1 zero matrix over an external ring&gt;
+&lt;A 1 x 1 matrix over an external ring&gt;
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( b );</span>
-0
+1
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">HomalgRing( b );</span>
 Q
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsDoneIterator( itr );</span>
