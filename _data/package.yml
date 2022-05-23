@@ -1,7 +1,7 @@
 name: ZariskiFrames
-version: "2022.05-01"
+version: "2022.05-02"
 license: "GPL-2.0-or-later"
-date: 2022-05-19
+date: 2022-05-23
 description: |
     (Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties
 
@@ -31,6 +31,9 @@ needed-pkgs:
     - name: "Toposes"
       version: ">= 2019.01.20"
       url: "https://homalg-project.github.io/pkg/Toposes"
+    - name: "CategoryConstructor"
+      version: ">= 2022.05-07"
+      url: "https://homalg-project.github.io/pkg/CategoryConstructor"
     - name: "Locales"
       version: ">= 2021.06-01"
       url: "https://homalg-project.github.io/pkg/Locales"
@@ -66,11 +69,11 @@ packageinfo: https://homalg-project.github.io/ZariskiFrames/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2022.05-01/ZariskiFrames-2022.05-01.tar.gz
+      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2022.05-02/ZariskiFrames-2022.05-02.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2022.05-01/ZariskiFrames-2022.05-01.zip
+      url: https://github.com/homalg-project/ZariskiFrames/releases/download/v2022.05-02/ZariskiFrames-2022.05-02.zip
 
-pdf: https://github.com/homalg-project/ZariskiFrames/releases/download/v2022.05-01/ZariskiFrames-2022.05-01.pdf
+pdf: https://github.com/homalg-project/ZariskiFrames/releases/download/v2022.05-02/ZariskiFrames-2022.05-02.pdf
 
 abstract: |
 
@@ -83,7 +86,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>BKL22</span>]   <b class='BibAuthor'>Barakat, M., Kuhmichel, T. and Lange-Hegermann, M.</b>,
      <i class='BibTitle'>ZariskiFrames, (Co)frames/Locales of Zariski closed/open subsets of affine, projective, or toric varieties,
-             Version 2022.05-01</i>
+             Version 2022.05-02</i>
      (<span class='BibYear'>2022</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/ZariskiFrames">https://homalg-project.github.io/pkg/ZariskiFrames</a></span>.
@@ -91,11 +94,11 @@ citeas: |
     
 
 bibtex: |
-    @misc{ ZariskiFrames2022.05-01,
+    @misc{ ZariskiFrames2022.05-02,
       author =           {Barakat, M. and Kuhmichel, T. and Lange-Hegermann, M.},
       title =            {{ZariskiFrames},    (Co)frames/Locales    of   Zariski
                           closed/open  subsets  of  affine, projective, or toric
-                          varieties, {V}ersion 2022.05-01},
+                          varieties, {V}ersion 2022.05-02},
       month =            {May},
       year =             {2022},
       note =             {GAP package},
