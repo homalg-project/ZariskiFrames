@@ -133,11 +133,9 @@ InstallMethod( OpenSubsetOfSpecByListOfMorphismsOfRank1Range,
   function( L )
     local l, R, R_elim, A, ZF, B;
     
-    List( L, IsZero );
-    
     l := L[1];
     
-    L := Filtered( L, l -> not ( IsEndomorphism( l ) and IsOne( l ) ) );
+    L := Filtered( L, l -> not IsZero( l ) );
     
     if L = [ ] then
         L := [ l ];
