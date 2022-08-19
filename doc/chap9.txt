@@ -21,9 +21,9 @@
   
   [1X9.2 [33X[0;0YConstructors[133X[101X
   
-  [1X9.2-1 ZariskiFrameOfProjUsingCategoryOfRows[101X
+  [1X9.2-1 ZariskiFrameOfProj[101X
   
-  [33X[1;0Y[29X[2XZariskiFrameOfProjUsingCategoryOfRows[102X( [3XR[103X ) [32X attribute[133X
+  [33X[1;0Y[29X[2XZariskiFrameOfProj[102X( [3XR[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X category[133X
   
   [33X[0;0YConstruct  the Zariski frame of open sets in a projective variety defined as
@@ -37,31 +37,30 @@
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X object[133X
   
   [33X[0;0YConstruct  a  Zariski open subset (as an object in the Zariski frame of open
-  subsets     in     a     projective     variety)     from     a     morphism
-  [3XI[103X=[10XAsMorphismInCategoryOfRows[110X(  [3Xmat[103X  )  in the category of (graded) rows. The
-  result  is  the projective non-support of the module-theoretic cokernel [22XM[122X of
-  the  morphism  [3XI[103X  in  the associated Freyd category, i.e., the result is the
-  complement   of   the   projective  vanishing  locus  of  the  (homogeneous)
-  annihilator of [22XM[122X.[133X
+  subsets in a projective variety) from the homogeneous matrix [3Xmat[103X. The result
+  is  the  projective  non-support  of  the module-theoretic cokernel [22XM[122X of the
+  matrix  [3Xmat[103X  viewed  as  a  morphism in the Freyd category of the associated
+  category  of  graded  rows,  i.e.,  the  result  is  the  complement  of the
+  projective vanishing locus of the (homogeneous) annihilator of [22XM[122X.[133X
   
-  [1X9.2-3 OpenSubsetOfProjByReducedMorphism[101X
+  [1X9.2-3 OpenSubsetOfProjByReducedColumn[101X
   
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedMorphism[102X( [3XI[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedMorphism[102X( [3Xmat[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedMorphism[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedColumn[102X( [3XI[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedColumn[102X( [3Xmat[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
   
-  [33X[0;0Y[10XOpenSubsetOfProjByReducedMorphism[110X assumes that the image is a radical ideal.[133X
+  [33X[0;0Y[10XOpenSubsetOfProjByReducedColumn[110X assumes that the image is a radical ideal.[133X
   
-  [1X9.2-4 OpenSubsetOfProjByListOfMorphismsOfRank1Range[101X
+  [1X9.2-4 OpenSubsetOfProjByListOfColumns[101X
   
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByListOfMorphismsOfRank1Range[102X( [3XL[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfProjByListOfColumns[102X( [3XL[103X ) [32X operation[133X
   
-  [1X9.2-5 OpenSubsetOfProjByStandardMorphism[101X
+  [1X9.2-5 OpenSubsetOfProjByStandardColumn[101X
   
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardMorphism[102X( [3XI[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardMorphism[102X( [3Xmat[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardMorphism[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardColumn[102X( [3XI[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardColumn[102X( [3Xmat[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
   
-  [33X[0;0Y[10XOpenSubsetOfProjByStandardMorphism[110X assumes that the image is a radical ideal
+  [33X[0;0Y[10XOpenSubsetOfProjByStandardColumn[110X  assumes  that the image is a radical ideal
   given by some sort of a [21Xstandard[121X basis.[133X
   

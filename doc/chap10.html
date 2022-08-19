@@ -36,11 +36,11 @@
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap10.html#X86EC0F0A78ECBC10">10.3 <span class="Heading">Constructors</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X799CA7C783E2ECAE">10.3-1 ZariskiCoframeOfProjUsingCategoryOfRows</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X7ED5F8098117B63E">10.3-2 ClosedSubsetOfProj</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X856EC3087E9902FD">10.3-3 ClosedSubsetOfProjByReducedMorphism</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X7C8F2F8785EE11B2">10.3-4 ClosedSubsetOfProjByListOfMorphismsOfRank1Range</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X7EA7DA528418B895">10.3-5 ClosedSubsetOfProjByStandardMorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X8203981B861F8746">10.3-1 ZariskiCoframeOfProj</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X8332E7DC7B51AACB">10.3-2 ClosedSubsetOfProj</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X7E7C7A5D87388CF2">10.3-3 ClosedSubsetOfProjByReducedColumn</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X7CFB262A87D06F15">10.3-4 ClosedSubsetOfProjByListOfColumns</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap10.html#X8607C8EE812A2028">10.3-5 ClosedSubsetOfProjByStandardColumn</a></span>
 </div></div>
 </div>
 
@@ -81,48 +81,45 @@
 
 <h4>10.3 <span class="Heading">Constructors</span></h4>
 
-<p><a id="X799CA7C783E2ECAE" name="X799CA7C783E2ECAE"></a></p>
+<p><a id="X8203981B861F8746" name="X8203981B861F8746"></a></p>
 
-<h5>10.3-1 ZariskiCoframeOfProjUsingCategoryOfRows</h5>
+<h5>10.3-1 ZariskiCoframeOfProj</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ZariskiCoframeOfProjUsingCategoryOfRows</code>( <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ZariskiCoframeOfProj</code>( <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> category</p>
 
 <p>Construct the Zariski coframe of closed sets in a projective variety defined as the vanishing loci of (radical) ideals of a <strong class="pkg">homalg</strong> ring <var class="Arg">R</var>.</p>
 
-<p><a id="X7ED5F8098117B63E" name="X7ED5F8098117B63E"></a></p>
+<p><a id="X8332E7DC7B51AACB" name="X8332E7DC7B51AACB"></a></p>
 
 <h5>10.3-2 ClosedSubsetOfProj</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProj</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProj</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProj</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> object</p>
 
-<p>Construct a Zariski closed subset (as an object in the Zariski coframe of closed subsets a projective variety) from a morphism <var class="Arg">I</var>=<code class="code">AsMorphismInCategoryOfRows</code>( <var class="Arg">mat</var> ) in the category of (graded) rows. The result is the projective support of the module-theoretic cokernel <span class="SimpleMath">M</span> of the morphism <var class="Arg">I</var> in the associated Freyd category, i.e., the result is the projective vanishing locus of the (homogeneous) annihilator of <span class="SimpleMath">M</span>.</p>
+<p>Construct a Zariski closed subset (as an object in the Zariski coframe of closed subsets a projective variety) from the homogeneous matrix <var class="Arg">mat</var>. The result is the projective support of the module-theoretic cokernel <span class="SimpleMath">M</span> of the matrix <var class="Arg">mat</var> viewed as a morphism in the Freyd category of the associated category of graded rows, i.e., the result is the projective vanishing locus of the (homogeneous) annihilator of <span class="SimpleMath">M</span>.</p>
 
-<p><a id="X856EC3087E9902FD" name="X856EC3087E9902FD"></a></p>
+<p><a id="X7E7C7A5D87388CF2" name="X7E7C7A5D87388CF2"></a></p>
 
-<h5>10.3-3 ClosedSubsetOfProjByReducedMorphism</h5>
+<h5>10.3-3 ClosedSubsetOfProjByReducedColumn</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByReducedMorphism</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByReducedMorphism</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByReducedMorphism</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><code class="code">ClosedSubsetOfProjByReducedMorphism</code> assumes that the image is a radical ideal.</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByReducedColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByReducedColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">ClosedSubsetOfProjByReducedColumn</code> assumes that the image is a radical ideal.</p>
 
-<p><a id="X7C8F2F8785EE11B2" name="X7C8F2F8785EE11B2"></a></p>
+<p><a id="X7CFB262A87D06F15" name="X7CFB262A87D06F15"></a></p>
 
-<h5>10.3-4 ClosedSubsetOfProjByListOfMorphismsOfRank1Range</h5>
+<h5>10.3-4 ClosedSubsetOfProjByListOfColumns</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByListOfMorphismsOfRank1Range</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><a id="X7EA7DA528418B895" name="X7EA7DA528418B895"></a></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByListOfColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><a id="X8607C8EE812A2028" name="X8607C8EE812A2028"></a></p>
 
-<h5>10.3-5 ClosedSubsetOfProjByStandardMorphism</h5>
+<h5>10.3-5 ClosedSubsetOfProjByStandardColumn</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByStandardMorphism</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByStandardMorphism</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByStandardMorphism</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><code class="code">ClosedSubsetOfProjByStandardMorphism</code> assumes that the image is a radical ideal given by some sort of a "standard" basis.</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByStandardColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfProjByStandardColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">ClosedSubsetOfProjByStandardColumn</code> assumes that the image is a radical ideal given by some sort of a "standard" basis.</p>
 
 
 <div class="chlinkprevnextbot">&nbsp;<a href="chap0.html">[Top of Book]</a>&nbsp;  <a href="chap0.html#contents">[Contents]</a>&nbsp;  &nbsp;<a href="chap9.html">[Previous Chapter]</a>&nbsp;  &nbsp;<a href="chap11.html">[Next Chapter]</a>&nbsp;  </div>

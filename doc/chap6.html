@@ -32,12 +32,12 @@
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap6.html#X86EC0F0A78ECBC10">6.2 <span class="Heading">Constructors</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X8712F8DE7A6C1DBE">6.2-1 ZariskiCoframeOfAffineSpectrumUsingCategoryOfRows</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7CD3BC8D84D89EB4">6.2-2 ClosedSubsetOfSpec</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X83257E047B562A77">6.2-3 ClosedSubsetOfSpecByReducedMorphism</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X86D5B6AA80213938">6.2-4 ClosedSubsetOfSpecByListOfMorphismsOfRank1Range</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X87398CC17B8D5D6D">6.2-5 ClosedSubsetOfSpecByListOfReducedMorphisms</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X8761018581D7901F">6.2-6 ClosedSubsetOfSpecByStandardMorphism</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7A93864B7D58D2F2">6.2-1 ZariskiCoframeOfAffineSpectrum</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X852116887E9E8241">6.2-2 ClosedSubsetOfSpec</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7F45525482F7A478">6.2-3 ClosedSubsetOfSpecByReducedColumn</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7EFD62AE821F479F">6.2-4 ClosedSubsetOfSpecByListOfColumns</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7C23D9757FEA3714">6.2-5 ClosedSubsetOfSpecByListOfReducedColumns</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X790608F284E508A2">6.2-6 ClosedSubsetOfSpecByStandardColumn</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7A7BA32B7F6C7ECC">6.2-7 TangentSpaceAtPoint</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X8035C2F67CCB2011">6.2-8 TangentSpaceAtPoint</a></span>
 </div></div>
@@ -80,32 +80,31 @@
 
 <h4>6.2 <span class="Heading">Constructors</span></h4>
 
-<p><a id="X8712F8DE7A6C1DBE" name="X8712F8DE7A6C1DBE"></a></p>
+<p><a id="X7A93864B7D58D2F2" name="X7A93864B7D58D2F2"></a></p>
 
-<h5>6.2-1 ZariskiCoframeOfAffineSpectrumUsingCategoryOfRows</h5>
+<h5>6.2-1 ZariskiCoframeOfAffineSpectrum</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ZariskiCoframeOfAffineSpectrumUsingCategoryOfRows</code>( <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ZariskiCoframeOfAffineSpectrum</code>( <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;attribute&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> category</p>
 
 <p>Construct the Zariski coframe of closed sets in an affine variety defined as the vanishing loci of (radical) ideals of a <strong class="pkg">homalg</strong> ring <var class="Arg">R</var>.</p>
 
-<p><a id="X7CD3BC8D84D89EB4" name="X7CD3BC8D84D89EB4"></a></p>
+<p><a id="X852116887E9E8241" name="X852116887E9E8241"></a></p>
 
 <h5>6.2-2 ClosedSubsetOfSpec</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpec</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpec</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpec</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpec</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> object</p>
 
-<p>Construct a Zariski closed subset (as an object in the Zariski coframe of closed subsets in an affine variety) from a morphism <var class="Arg">I</var>=<code class="code">AsMorphismInCategoryOfRows</code>( <var class="Arg">mat</var> ) in the category of rows. The result is the support of the module-theoretic cokernel <span class="SimpleMath">M</span> of the morphism <var class="Arg">I</var> in the associated Freyd category, i.e., the result is the vanishing locus of the annihilator of <span class="SimpleMath">M</span>.</p>
+<p>Construct a Zariski closed subset (as an object in the Zariski coframe of closed subsets in an affine variety) from a matrix <var class="Arg">mat</var>. The result is the support of the module-theoretic cokernel <span class="SimpleMath">M</span> of <var class="Arg">mat</var> viewed as a morphism in the Freyd category of the associated category of rows, i.e., the result is the vanishing locus of the annihilator of <span class="SimpleMath">M</span>.</p>
 
 
 <div class="example"><pre>
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ZZ := HomalgRingOfIntegers( );</span>
 Z
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ZC := ZariskiCoframeOfAffineSpectrumUsingCategoryOfRows( ZZ );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ZC := ZariskiCoframeOfAffineSpectrum( ZZ );</span>
 The coframe of Zariski closed subsets of the affine spectrum of Z
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">A := ClosedSubsetOfSpec( HomalgMatrix( [ 4 ], 1, 1, ZZ ) );</span>
 V_{Z}( &lt;...&gt; )
@@ -113,7 +112,7 @@ V_{Z}( &lt;...&gt; )
 V( &lt;4&gt; )
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">B := ClosedSubsetOfSpec( "[ 12, 20 ]", ZZ );</span>
 V_{Z}( &lt;...&gt; )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C := ClosedSubsetOfSpecByReducedMorphism( "[ 3 ]", ZZ );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C := ClosedSubsetOfSpecByReducedColumn( "[ 3 ]", ZZ );</span>
 V_{Z}( &lt;...&gt; )
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">D := ClosedSubsetOfSpec( "[ 12 ]", ZZ );</span>
 V_{Z}( &lt;...&gt; )
@@ -221,35 +220,33 @@ V( &lt;3&gt; )
 true
 </pre></div>
 
-<p><a id="X83257E047B562A77" name="X83257E047B562A77"></a></p>
+<p><a id="X7F45525482F7A478" name="X7F45525482F7A478"></a></p>
 
-<h5>6.2-3 ClosedSubsetOfSpecByReducedMorphism</h5>
+<h5>6.2-3 ClosedSubsetOfSpecByReducedColumn</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByReducedMorphism</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByReducedMorphism</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByReducedMorphism</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByReducedMorphism</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><code class="code">ClosedSubsetOfSpecByReducedMorphism</code> assumes that the image is a radical ideal.</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByReducedColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByReducedColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByReducedColumn</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">ClosedSubsetOfSpecByReducedColumn</code> assumes that the image is a radical ideal.</p>
 
-<p><a id="X86D5B6AA80213938" name="X86D5B6AA80213938"></a></p>
+<p><a id="X7EFD62AE821F479F" name="X7EFD62AE821F479F"></a></p>
 
-<h5>6.2-4 ClosedSubsetOfSpecByListOfMorphismsOfRank1Range</h5>
+<h5>6.2-4 ClosedSubsetOfSpecByListOfColumns</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByListOfMorphismsOfRank1Range</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><a id="X87398CC17B8D5D6D" name="X87398CC17B8D5D6D"></a></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByListOfColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><a id="X7C23D9757FEA3714" name="X7C23D9757FEA3714"></a></p>
 
-<h5>6.2-5 ClosedSubsetOfSpecByListOfReducedMorphisms</h5>
+<h5>6.2-5 ClosedSubsetOfSpecByListOfReducedColumns</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByListOfReducedMorphisms</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><a id="X8761018581D7901F" name="X8761018581D7901F"></a></p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByListOfReducedColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><a id="X790608F284E508A2" name="X790608F284E508A2"></a></p>
 
-<h5>6.2-6 ClosedSubsetOfSpecByStandardMorphism</h5>
+<h5>6.2-6 ClosedSubsetOfSpecByStandardColumn</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardMorphism</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardMorphism</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardMorphism</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardMorphism</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><code class="code">ClosedSubsetOfSpecByStandardMorphism</code> assumes that the image is a radical ideal given by some sort of a "standard" basis.</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardColumn</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">ClosedSubsetOfSpecByStandardColumn</code> assumes that the image is a radical ideal given by some sort of a "standard" basis.</p>
 
 <p><a id="X7A7BA32B7F6C7ECC" name="X7A7BA32B7F6C7ECC"></a></p>
 
