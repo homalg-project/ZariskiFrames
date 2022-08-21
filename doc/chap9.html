@@ -25,17 +25,17 @@
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap9.html#X7D03633A7D98026B">9.1 <span class="Heading">GAP Categories</span></a>
 </span>
 <div class="ContSSBlock">
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7BA93C9D7BE8157C">9.1-1 IsObjectInZariskiFrameOfAProjectiveVariety</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7B65C7B6857D35A2">9.1-2 IsMorphismInZariskiFrameOfAProjectiveVariety</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7BCA893081B9CB76">9.1-1 IsZariskiFrameOfAProjectiveVariety</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7BA93C9D7BE8157C">9.1-2 IsObjectInZariskiFrameOfAProjectiveVariety</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7B65C7B6857D35A2">9.1-3 IsMorphismInZariskiFrameOfAProjectiveVariety</a></span>
 </div></div>
 <div class="ContSect"><span class="tocline"><span class="nocss">&nbsp;</span><a href="chap9.html#X86EC0F0A78ECBC10">9.2 <span class="Heading">Constructors</span></a>
 </span>
 <div class="ContSSBlock">
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7A5CEA8884A50A11">9.2-1 ZariskiFrameOfProj</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7FDB577884679A34">9.2-2 OpenSubsetOfProj</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X82485FA17C381548">9.2-3 OpenSubsetOfProjByReducedColumn</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7DF5895B7F006598">9.2-4 OpenSubsetOfProjByListOfColumns</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7F34B98D7B05F120">9.2-5 OpenSubsetOfProjByStandardColumn</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7F5EC22A79DD0E73">9.2-2 OpenSubsetOfProj</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7AFBF38B843687E3">9.2-3 OpenSubsetOfProjByReducedColumn</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap9.html#X7B3E202887565C09">9.2-4 OpenSubsetOfProjByStandardColumn</a></span>
 </div></div>
 </div>
 
@@ -45,9 +45,18 @@
 
 <h4>9.1 <span class="Heading">GAP Categories</span></h4>
 
+<p><a id="X7BCA893081B9CB76" name="X7BCA893081B9CB76"></a></p>
+
+<h5>9.1-1 IsZariskiFrameOfAProjectiveVariety</h5>
+
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsZariskiFrameOfAProjectiveVariety</code>( <var class="Arg">object</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
+<p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
+
+<p>The <strong class="pkg">GAP</strong> category of Zariski frames of a projective variety.</p>
+
 <p><a id="X7BA93C9D7BE8157C" name="X7BA93C9D7BE8157C"></a></p>
 
-<h5>9.1-1 IsObjectInZariskiFrameOfAProjectiveVariety</h5>
+<h5>9.1-2 IsObjectInZariskiFrameOfAProjectiveVariety</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsObjectInZariskiFrameOfAProjectiveVariety</code>( <var class="Arg">object</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
 <p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
@@ -56,7 +65,7 @@
 
 <p><a id="X7B65C7B6857D35A2" name="X7B65C7B6857D35A2"></a></p>
 
-<h5>9.1-2 IsMorphismInZariskiFrameOfAProjectiveVariety</h5>
+<h5>9.1-3 IsMorphismInZariskiFrameOfAProjectiveVariety</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; IsMorphismInZariskiFrameOfAProjectiveVariety</code>( <var class="Arg">morphism</var> )</td><td class="tdright">(&nbsp;filter&nbsp;)</td></tr></table></div>
 <p>Returns: <code class="keyw">true</code> or <code class="keyw">false</code></p>
@@ -76,37 +85,30 @@
 
 <p>Construct the Zariski frame of open sets in a projective variety defined as the complements of vanishing loci of (radical) ideals of a <strong class="pkg">homalg</strong> ring <var class="Arg">R</var>.</p>
 
-<p><a id="X7FDB577884679A34" name="X7FDB577884679A34"></a></p>
+<p><a id="X7F5EC22A79DD0E73" name="X7F5EC22A79DD0E73"></a></p>
 
 <h5>9.2-2 OpenSubsetOfProj</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProj</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProj</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProj</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByListOfColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> object</p>
 
 <p>Construct a Zariski open subset (as an object in the Zariski frame of open subsets in a projective variety) from the homogeneous matrix <var class="Arg">mat</var>. The result is the projective non-support of the module-theoretic cokernel <span class="SimpleMath">M</span> of the matrix <var class="Arg">mat</var> viewed as a morphism in the Freyd category of the associated category of graded rows, i.e., the result is the complement of the projective vanishing locus of the (homogeneous) annihilator of <span class="SimpleMath">M</span>.</p>
 
-<p><a id="X82485FA17C381548" name="X82485FA17C381548"></a></p>
+<p><a id="X7AFBF38B843687E3" name="X7AFBF38B843687E3"></a></p>
 
 <h5>9.2-3 OpenSubsetOfProjByReducedColumn</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByReducedColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByReducedColumn</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByReducedColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><code class="code">OpenSubsetOfProjByReducedColumn</code> assumes that the image is a radical ideal.</p>
 
-<p><a id="X7DF5895B7F006598" name="X7DF5895B7F006598"></a></p>
+<p><a id="X7B3E202887565C09" name="X7B3E202887565C09"></a></p>
 
-<h5>9.2-4 OpenSubsetOfProjByListOfColumns</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByListOfColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><a id="X7F34B98D7B05F120" name="X7F34B98D7B05F120"></a></p>
-
-<h5>9.2-5 OpenSubsetOfProjByStandardColumn</h5>
+<h5>9.2-4 OpenSubsetOfProjByStandardColumn</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByStandardColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByStandardColumn</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfProjByStandardColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><code class="code">OpenSubsetOfProjByStandardColumn</code> assumes that the image is a radical ideal given by some sort of a "standard" basis.</p>
 

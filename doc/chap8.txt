@@ -20,9 +20,9 @@
   [33X[0;0YThe  [5XGAP[105X category of morphisms in a Zariski frame or coframe of a projective
   variety.[133X
   
-  [1X8.1-3 ListOfSaturatedUnderlyingColumns[101X
+  [1X8.1-3 UnderlyingListOfSaturatedColumns[101X
   
-  [33X[1;0Y[29X[2XListOfSaturatedUnderlyingColumns[102X( [3Xarg[103X ) [32X attribute[133X
+  [33X[1;0Y[29X[2XUnderlyingListOfSaturatedColumns[102X( [3Xarg[103X ) [32X attribute[133X
   
   [1X8.1-4 SaturatedUnderlyingColumn[101X
   

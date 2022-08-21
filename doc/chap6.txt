@@ -41,6 +41,8 @@
   [33X[1;0Y[29X[2XClosedSubsetOfSpec[102X( [3Xmat[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XClosedSubsetOfSpec[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XClosedSubsetOfSpec[102X( [3Xr[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfSpecByListOfColumns[102X( [3XL[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfSpecByListOfReducedColumns[102X( [3XL[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X object[133X
   
   [33X[0;0YConstruct  a  Zariski  closed subset (as an object in the Zariski coframe of
@@ -176,15 +178,7 @@
   
   [33X[0;0Y[10XClosedSubsetOfSpecByReducedColumn[110X assumes that the image is a radical ideal.[133X
   
-  [1X6.2-4 ClosedSubsetOfSpecByListOfColumns[101X
-  
-  [33X[1;0Y[29X[2XClosedSubsetOfSpecByListOfColumns[102X( [3XL[103X ) [32X operation[133X
-  
-  [1X6.2-5 ClosedSubsetOfSpecByListOfReducedColumns[101X
-  
-  [33X[1;0Y[29X[2XClosedSubsetOfSpecByListOfReducedColumns[102X( [3XL[103X ) [32X operation[133X
-  
-  [1X6.2-6 ClosedSubsetOfSpecByStandardColumn[101X
+  [1X6.2-4 ClosedSubsetOfSpecByStandardColumn[101X
   
   [33X[1;0Y[29X[2XClosedSubsetOfSpecByStandardColumn[102X( [3XI[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XClosedSubsetOfSpecByStandardColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
@@ -193,7 +187,7 @@
   [33X[0;0Y[10XClosedSubsetOfSpecByStandardColumn[110X assumes that the image is a radical ideal
   given by some sort of a [21Xstandard[121X basis.[133X
   
-  [1X6.2-7 TangentSpaceAtPoint[101X
+  [1X6.2-5 TangentSpaceAtPoint[101X
   
   [33X[1;0Y[29X[2XTangentSpaceAtPoint[102X( [3XV[103X, [3Xp[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Yan object in a Zariski coframe[133X
@@ -201,7 +195,7 @@
   [33X[0;0YCompute  the  tangent space of [3XV[103X at the closed point [3Xp[103X as an affine subspace
   of the ambient space of [3XV[103X intersecting [3Xp[103X.[133X
   
-  [1X6.2-8 TangentSpaceAtPoint[101X
+  [1X6.2-6 TangentSpaceAtPoint[101X
   
   [33X[1;0Y[29X[2XTangentSpaceAtPoint[102X( [3XV[103X, [3Xp[103X ) [32X operation[133X
   

@@ -38,8 +38,7 @@
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7D73B9AB81E51E01">5.2-1 ZariskiFrameOfAffineSpectrum</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X794D337E87B003C9">5.2-2 OpenSubsetOfSpec</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7BC2DB827A5B8A59">5.2-3 OpenSubsetOfSpecByReducedColumn</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7FF3CDDF816D6822">5.2-4 OpenSubsetOfSpecByListOfColumns</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X843FE034793B51B3">5.2-5 OpenSubsetOfSpecByStandardColumn</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X843FE034793B51B3">5.2-4 OpenSubsetOfSpecByStandardColumn</a></span>
 </div></div>
 </div>
 
@@ -95,9 +94,171 @@
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpec</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpec</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpec</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByListOfColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> object</p>
 
 <p>Construct a Zariski open subset (as an object in the Zariski frame of open subsets in an affine variety) from a matrix <var class="Arg">mat</var>. The result is the non-support of the module-theoretic cokernel <span class="SimpleMath">\(M\)</span> of <var class="Arg">mat</var> viewed as a morphism in the Freyd category of the associated category of rows, i.e., the result is the complement of the vanishing locus of the annihilator of <span class="SimpleMath">\(M\)</span>.</p>
+
+
+<div class="example"><pre>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ZZ := HomalgRingOfIntegersInSingular( );</span>
+Z
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ZF := ZariskiFrameOfAffineSpectrum( ZZ );</span>
+The frame of Zariski open subsets of the affine spectrum of Z
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">A := OpenSubsetOfSpec( HomalgMatrix( [ 4 ], 1, 1, ZZ ) );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( A );</span>
+D( &lt;4&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">B := OpenSubsetOfSpec( "[ 12,20 ]", ZZ );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C := OpenSubsetOfSpecByReducedColumn( "[ 3 ]", ZZ );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">D := OpenSubsetOfSpec( "[ 12 ]", ZZ );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">A = B;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( A );</span>
+D( &lt;2&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">A = C;</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">LCA := LocallyClosedPart( A );</span>
+V_{Z}( I ) \ V_{Z}( J )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( LCA );</span>
+V( &lt;&gt; ) \ V( &lt;2&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">embAB := UniqueMorphism( A, B );</span>
+&lt;An epi-, monomorphism in The frame of Zariski open subsets of the\
+ affine spectrum of Z&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( embAB );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( embAB );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">embAC := UniqueMorphism( A, C );</span>
+&lt;An epi-, monomorphism in The frame of Zariski open subsets of the\
+ affine spectrum of Z&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( embAC );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">embDA := UniqueMorphism( D, A );</span>
+&lt;An epi-, monomorphism in The frame of Zariski open subsets of the\
+ affine spectrum of Z&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( embDA );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsSubset( A, D );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( embDA );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">embAD := UniqueMorphism( A, D );</span>
+&lt;An epi-, monomorphism in The frame of Zariski open subsets of the\
+ affine spectrum of Z&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( embAD );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsSubset( D, A );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">T := TerminalObject( ZF );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( T );</span>
+D( &lt;1&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">I := InitialObject( ZF );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( I );</span>
+∅
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">A := OpenSubsetOfSpec( "[ 4 ]", ZZ );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( A );</span>
+D( &lt;4&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">AvC := Coproduct( A, C );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( AvC );</span>
+D( &lt;4,3&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">AvC = T;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( AvC );</span>
+D( &lt;1&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">AC := DirectProduct( A, C );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( AC );</span>
+{ D( &lt;4&gt; ) ∩ D( &lt;3&gt; ) }
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">StandardizeObject( AC );</span>
+D_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( AC );</span>
+{ D( &lt;2&gt; ) ∩ D( &lt;3&gt; ) }
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( I, T ) = T;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( A, T ) = T;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( T, T ) = T;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( T, A ) = A;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( T, I ) = I;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( A, I ) = I;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( I, I ) = T;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( D, B ) = T;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( B, D ) = C;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( D, C ) = T;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ExponentialOnObjects( C, D ) = B;</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( CartesianEvaluationMorphism( A, C ) );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( CartesianEvaluationMorphism( A, C ) );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( CartesianEvaluationMorphism( C, A ) );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( CartesianEvaluationMorphism( C, A ) );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( CartesianCoevaluationMorphism( A, D ) );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( CartesianCoevaluationMorphism( A, D ) );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( CartesianCoevaluationMorphism( D, A ) );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( CartesianCoevaluationMorphism( D, A ) );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">th := UniqueMorphism( DirectProduct( A, C ), C );</span>
+&lt;An epi-, monomorphism in The frame of Zariski open subsets of the\
+ affine spectrum of Z&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( th );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">th := DirectProductToExponentialAdjunctionMap( A, C, th );</span>
+&lt;An epi-, monomorphism in The frame of Zariski open subsets of the\
+ affine spectrum of Z&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( th );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( th );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ht := UniqueMorphism( A, ExponentialOnObjects( D, B ) );</span>
+&lt;An epi-, monomorphism in The frame of Zariski open subsets of the\
+ affine spectrum of Z&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( ht );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">ht := ExponentialToDirectProductAdjunctionMap( D, B, ht );</span>
+&lt;An epi-, monomorphism in The frame of Zariski open subsets of the\
+ affine spectrum of Z&gt;
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( ht );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( ht );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsWellDefined( CartesianPreComposeMorphism( A, C, D ) );</span>
+true
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">IsIsomorphism( CartesianPreComposeMorphism( A, C, D ) );</span>
+false
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">p := AClosedSingleton( D );</span>
+V_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( p );</span>
+V( &lt;5&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">q := AClosedSingleton( D - p );</span>
+V_{Z}( &lt;...&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">Display( q );</span>
+V( &lt;7&gt; )
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">p + q = D;</span>
+false
+</pre></div>
 
 
 <div class="example"><pre>
@@ -265,19 +426,17 @@ false
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByReducedColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByReducedColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByReducedColumn</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByListOfReducedColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><code class="code">OpenSubsetOfSpecByReducedColumn</code> assumes that the image is a radical ideal.</p>
 
-<p><a id="X7FF3CDDF816D6822" name="X7FF3CDDF816D6822"></a></p>
-
-<h5>5.2-4 OpenSubsetOfSpecByListOfColumns</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByListOfColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><a id="X843FE034793B51B3" name="X843FE034793B51B3"></a></p>
 
-<h5>5.2-5 OpenSubsetOfSpecByStandardColumn</h5>
+<h5>5.2-4 OpenSubsetOfSpecByStandardColumn</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByStandardColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByStandardColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByStandardColumn</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><code class="code">OpenSubsetOfSpecByStandardColumn</code> assumes that the image is a radical ideal given by some sort of a "standard" basis.</p>
 
 

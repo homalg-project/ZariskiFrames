@@ -35,11 +35,9 @@
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7A93864B7D58D2F2">6.2-1 ZariskiCoframeOfAffineSpectrum</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X852116887E9E8241">6.2-2 ClosedSubsetOfSpec</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7F45525482F7A478">6.2-3 ClosedSubsetOfSpecByReducedColumn</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7EFD62AE821F479F">6.2-4 ClosedSubsetOfSpecByListOfColumns</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7C23D9757FEA3714">6.2-5 ClosedSubsetOfSpecByListOfReducedColumns</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X790608F284E508A2">6.2-6 ClosedSubsetOfSpecByStandardColumn</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7A7BA32B7F6C7ECC">6.2-7 TangentSpaceAtPoint</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X8035C2F67CCB2011">6.2-8 TangentSpaceAtPoint</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X790608F284E508A2">6.2-4 ClosedSubsetOfSpecByStandardColumn</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X7A7BA32B7F6C7ECC">6.2-5 TangentSpaceAtPoint</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap6.html#X8035C2F67CCB2011">6.2-6 TangentSpaceAtPoint</a></span>
 </div></div>
 </div>
 
@@ -96,6 +94,8 @@
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpec</code>( <var class="Arg">mat</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpec</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpec</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByListOfColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByListOfReducedColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: a <strong class="pkg">CAP</strong> object</p>
 
 <p>Construct a Zariski closed subset (as an object in the Zariski coframe of closed subsets in an affine variety) from a matrix <var class="Arg">mat</var>. The result is the support of the module-theoretic cokernel <span class="SimpleMath">M</span> of <var class="Arg">mat</var> viewed as a morphism in the Freyd category of the associated category of rows, i.e., the result is the vanishing locus of the annihilator of <span class="SimpleMath">M</span>.</p>
@@ -229,19 +229,9 @@ true
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByReducedColumn</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><code class="code">ClosedSubsetOfSpecByReducedColumn</code> assumes that the image is a radical ideal.</p>
 
-<p><a id="X7EFD62AE821F479F" name="X7EFD62AE821F479F"></a></p>
-
-<h5>6.2-4 ClosedSubsetOfSpecByListOfColumns</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByListOfColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><a id="X7C23D9757FEA3714" name="X7C23D9757FEA3714"></a></p>
-
-<h5>6.2-5 ClosedSubsetOfSpecByListOfReducedColumns</h5>
-
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByListOfReducedColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p><a id="X790608F284E508A2" name="X790608F284E508A2"></a></p>
 
-<h5>6.2-6 ClosedSubsetOfSpecByStandardColumn</h5>
+<h5>6.2-4 ClosedSubsetOfSpecByStandardColumn</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; ClosedSubsetOfSpecByStandardColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
@@ -250,7 +240,7 @@ true
 
 <p><a id="X7A7BA32B7F6C7ECC" name="X7A7BA32B7F6C7ECC"></a></p>
 
-<h5>6.2-7 TangentSpaceAtPoint</h5>
+<h5>6.2-5 TangentSpaceAtPoint</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TangentSpaceAtPoint</code>( <var class="Arg">V</var>, <var class="Arg">p</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 <p>Returns: an object in a Zariski coframe</p>
@@ -259,7 +249,7 @@ true
 
 <p><a id="X8035C2F67CCB2011" name="X8035C2F67CCB2011"></a></p>
 
-<h5>6.2-8 TangentSpaceAtPoint</h5>
+<h5>6.2-6 TangentSpaceAtPoint</h5>
 
 <div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; TangentSpaceAtPoint</code>( <var class="Arg">V</var>, <var class="Arg">p</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
 

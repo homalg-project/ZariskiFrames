@@ -4,14 +4,21 @@
   
   [1X10.1 [33X[0;0YGAP Categories[133X[101X
   
-  [1X10.1-1 IsObjectInZariskiCoframeOfAProjectiveVariety[101X
+  [1X10.1-1 IsZariskiCoframeOfAProjectiveVariety[101X
+  
+  [33X[1;0Y[29X[2XIsZariskiCoframeOfAProjectiveVariety[102X( [3Xobject[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of Zariski coframes of a projective variety.[133X
+  
+  [1X10.1-2 IsObjectInZariskiCoframeOfAProjectiveVariety[101X
   
   [33X[1;0Y[29X[2XIsObjectInZariskiCoframeOfAProjectiveVariety[102X( [3Xobject[103X ) [32X filter[133X
   [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in a Zariski coframe of a projective variety.[133X
   
-  [1X10.1-2 IsMorphismInZariskiCoframeOfAProjectiveVariety[101X
+  [1X10.1-3 IsMorphismInZariskiCoframeOfAProjectiveVariety[101X
   
   [33X[1;0Y[29X[2XIsMorphismInZariskiCoframeOfAProjectiveVariety[102X( [3Xmorphism[103X ) [32X filter[133X
   [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
@@ -40,6 +47,7 @@
   
   [33X[1;0Y[29X[2XClosedSubsetOfProj[102X( [3Xmat[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XClosedSubsetOfProj[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfProjByListOfColumns[102X( [3XL[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X object[133X
   
   [33X[0;0YConstruct  a  Zariski  closed subset (as an object in the Zariski coframe of
@@ -56,11 +64,7 @@
   
   [33X[0;0Y[10XClosedSubsetOfProjByReducedColumn[110X assumes that the image is a radical ideal.[133X
   
-  [1X10.3-4 ClosedSubsetOfProjByListOfColumns[101X
-  
-  [33X[1;0Y[29X[2XClosedSubsetOfProjByListOfColumns[102X( [3XL[103X ) [32X operation[133X
-  
-  [1X10.3-5 ClosedSubsetOfProjByStandardColumn[101X
+  [1X10.3-4 ClosedSubsetOfProjByStandardColumn[101X
   
   [33X[1;0Y[29X[2XClosedSubsetOfProjByStandardColumn[102X( [3XI[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XClosedSubsetOfProjByStandardColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X

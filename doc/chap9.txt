@@ -4,14 +4,21 @@
   
   [1X9.1 [33X[0;0YGAP Categories[133X[101X
   
-  [1X9.1-1 IsObjectInZariskiFrameOfAProjectiveVariety[101X
+  [1X9.1-1 IsZariskiFrameOfAProjectiveVariety[101X
+  
+  [33X[1;0Y[29X[2XIsZariskiFrameOfAProjectiveVariety[102X( [3Xobject[103X ) [32X filter[133X
+  [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
+  
+  [33X[0;0YThe [5XGAP[105X category of Zariski frames of a projective variety.[133X
+  
+  [1X9.1-2 IsObjectInZariskiFrameOfAProjectiveVariety[101X
   
   [33X[1;0Y[29X[2XIsObjectInZariskiFrameOfAProjectiveVariety[102X( [3Xobject[103X ) [32X filter[133X
   [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
   
   [33X[0;0YThe [5XGAP[105X category of objects in a Zariski frame of a projective variety.[133X
   
-  [1X9.1-2 IsMorphismInZariskiFrameOfAProjectiveVariety[101X
+  [1X9.1-3 IsMorphismInZariskiFrameOfAProjectiveVariety[101X
   
   [33X[1;0Y[29X[2XIsMorphismInZariskiFrameOfAProjectiveVariety[102X( [3Xmorphism[103X ) [32X filter[133X
   [6XReturns:[106X  [33X[0;10Y[9Xtrue[109X or [9Xfalse[109X[133X
@@ -31,9 +38,9 @@
   
   [1X9.2-2 OpenSubsetOfProj[101X
   
-  [33X[1;0Y[29X[2XOpenSubsetOfProj[102X( [3XI[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XOpenSubsetOfProj[102X( [3Xmat[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XOpenSubsetOfProj[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfProjByListOfColumns[102X( [3XL[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X object[133X
   
   [33X[0;0YConstruct  a  Zariski open subset (as an object in the Zariski frame of open
@@ -46,19 +53,13 @@
   [1X9.2-3 OpenSubsetOfProjByReducedColumn[101X
   
   [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedColumn[102X( [3XI[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedColumn[102X( [3Xmat[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XOpenSubsetOfProjByReducedColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
   
   [33X[0;0Y[10XOpenSubsetOfProjByReducedColumn[110X assumes that the image is a radical ideal.[133X
   
-  [1X9.2-4 OpenSubsetOfProjByListOfColumns[101X
-  
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByListOfColumns[102X( [3XL[103X ) [32X operation[133X
-  
-  [1X9.2-5 OpenSubsetOfProjByStandardColumn[101X
+  [1X9.2-4 OpenSubsetOfProjByStandardColumn[101X
   
   [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardColumn[102X( [3XI[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardColumn[102X( [3Xmat[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XOpenSubsetOfProjByStandardColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
   
   [33X[0;0Y[10XOpenSubsetOfProjByStandardColumn[110X  assumes  that the image is a radical ideal
