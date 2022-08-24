@@ -47,20 +47,20 @@
   
   [1X1.4 [33X[0;0YAttributes[133X[101X
   
-  [1X1.4-1 BaseOfFibration[101X
+  [1X1.4-1 UnderlyingRing[101X
+  
+  [33X[1;0Y[29X[2XUnderlyingRing[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  [1X1.4-2 BaseOfFibration[101X
   
   [33X[1;0Y[29X[2XBaseOfFibration[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X1.4-2 Closure[101X
+  [1X1.4-3 Closure[101X
   
   [33X[1;0Y[29X[2XClosure[102X( [3XA[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Yan object in the Zariski coframe[133X
   
   [33X[0;0YThe closure of [3XA[103X.[133X
-  
-  [1X1.4-3 ParametrizedObject[101X
-  
-  [33X[1;0Y[29X[2XParametrizedObject[102X( [3XA[103X ) [32X attribute[133X
   
   [1X1.4-4 ParametrizedObject[101X
   
@@ -70,13 +70,13 @@
   
   [33X[1;0Y[29X[2XParametrizedObject[102X( [3XA[103X ) [32X attribute[133X
   
-  [1X1.4-6 LocallyClosedPart[101X
+  [1X1.4-6 ParametrizedObject[101X
+  
+  [33X[1;0Y[29X[2XParametrizedObject[102X( [3XA[103X ) [32X attribute[133X
+  
+  [1X1.4-7 LocallyClosedPart[101X
   
   [33X[1;0Y[29X[2XLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
-  
-  [1X1.4-7 DistinguishedLocallyClosedPart[101X
-  
-  [33X[1;0Y[29X[2XDistinguishedLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
   
   [1X1.4-8 DistinguishedLocallyClosedPart[101X
   
@@ -86,15 +86,19 @@
   
   [33X[1;0Y[29X[2XDistinguishedLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
   
-  [1X1.4-10 AffineApproximation[101X
+  [1X1.4-10 DistinguishedLocallyClosedPart[101X
+  
+  [33X[1;0Y[29X[2XDistinguishedLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
+  
+  [1X1.4-11 AffineApproximation[101X
   
   [33X[1;0Y[29X[2XAffineApproximation[102X( [3XA[103X ) [32X attribute[133X
   
-  [1X1.4-11 CanonicalObject[101X
+  [1X1.4-12 CanonicalObject[101X
   
   [33X[1;0Y[29X[2XCanonicalObject[102X( [3XA[103X ) [32X attribute[133X
   
-  [1X1.4-12 RabinowitschCover[101X
+  [1X1.4-13 RabinowitschCover[101X
   
   [33X[1;0Y[29X[2XRabinowitschCover[102X( [3XA[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X object[133X
