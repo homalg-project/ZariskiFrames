@@ -57,12 +57,12 @@
   category  of graded rows, i.e., the result is the projective vanishing locus
   of the (homogeneous) annihilator of [22XM[122X.[133X
   
-  [1X10.3-3 ClosedSubsetOfProjByReducedColumn[101X
+  [1X10.3-3 ClosedSubsetOfProjByRadicalColumn[101X
   
-  [33X[1;0Y[29X[2XClosedSubsetOfProjByReducedColumn[102X( [3XI[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XClosedSubsetOfProjByReducedColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfProjByRadicalColumn[102X( [3XI[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfProjByRadicalColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
   
-  [33X[0;0Y[10XClosedSubsetOfProjByReducedColumn[110X assumes that the image is a radical ideal.[133X
+  [33X[0;0Y[10XClosedSubsetOfProjByRadicalColumn[110X assumes that the image is a radical ideal.[133X
   
   [1X10.3-4 ClosedSubsetOfProjByStandardColumn[101X
   

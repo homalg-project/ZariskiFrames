@@ -16,7 +16,7 @@
   [2XClosedSubsetOfProj[102X, for IsHomalgMatrix 10.3-2 
       for IsString, IsHomalgRing 10.3-2 
   [2XClosedSubsetOfProjByListOfColumns[102X, for IsList 10.3-2 
-  [2XClosedSubsetOfProjByReducedColumn[102X, for IsHomalgMatrix 10.3-3 
+  [2XClosedSubsetOfProjByRadicalColumn[102X, for IsHomalgMatrix 10.3-3 
       for IsString, IsHomalgRing 10.3-3 
   [2XClosedSubsetOfProjByStandardColumn[102X, for IsHomalgMatrix 10.3-4 
       for IsString, IsHomalgRing 10.3-4 
@@ -24,8 +24,8 @@
       for IsHomalgRingElement 6.2-2 
       for IsString, IsHomalgRing 6.2-2 
   [2XClosedSubsetOfSpecByListOfColumns[102X, for IsList 6.2-2 
-  [2XClosedSubsetOfSpecByListOfReducedColumns[102X, for IsList 6.2-2 
-  [2XClosedSubsetOfSpecByReducedColumn[102X, for IsHomalgMatrix 6.2-3 
+  [2XClosedSubsetOfSpecByListOfRadicalColumns[102X, for IsList 6.2-2 
+  [2XClosedSubsetOfSpecByRadicalColumn[102X, for IsHomalgMatrix 6.2-3 
       for IsHomalgRingElement 6.2-3 
       for IsString, IsHomalgRing 6.2-3 
   [2XClosedSubsetOfSpecByStandardColumn[102X, for IsHomalgMatrix 6.2-4 
@@ -106,7 +106,7 @@
   [2XOpenSubsetOfProj[102X, for IsHomalgMatrix 9.2-2 
       for IsString, IsHomalgRing 9.2-2 
   [2XOpenSubsetOfProjByListOfColumns[102X, for IsList 9.2-2 
-  [2XOpenSubsetOfProjByReducedColumn[102X, for IsHomalgMatrix 9.2-3 
+  [2XOpenSubsetOfProjByRadicalColumn[102X, for IsHomalgMatrix 9.2-3 
       for IsString, IsHomalgRing 9.2-3 
   [2XOpenSubsetOfProjByStandardColumn[102X, for IsHomalgMatrix 9.2-4 
       for IsString, IsHomalgRing 9.2-4 
@@ -114,8 +114,8 @@
       for IsHomalgRingElement 5.2-2 
       for IsString, IsHomalgRing 5.2-2 
   [2XOpenSubsetOfSpecByListOfColumns[102X, for IsList 5.2-2 
-  [2XOpenSubsetOfSpecByListOfReducedColumns[102X, for IsList 5.2-3 
-  [2XOpenSubsetOfSpecByReducedColumn[102X, for IsHomalgMatrix 5.2-3 
+  [2XOpenSubsetOfSpecByListOfRadicalColumns[102X, for IsList 5.2-3 
+  [2XOpenSubsetOfSpecByRadicalColumn[102X, for IsHomalgMatrix 5.2-3 
       for IsHomalgRingElement 5.2-3 
       for IsString, IsHomalgRing 5.2-3 
   [2XOpenSubsetOfSpecByStandardColumn[102X, for IsHomalgMatrix 5.2-4 

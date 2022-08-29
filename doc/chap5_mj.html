@@ -37,7 +37,7 @@
 <div class="ContSSBlock">
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7D73B9AB81E51E01">5.2-1 ZariskiFrameOfAffineSpectrum</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X794D337E87B003C9">5.2-2 OpenSubsetOfSpec</a></span>
-<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7BC2DB827A5B8A59">5.2-3 OpenSubsetOfSpecByReducedColumn</a></span>
+<span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X7CCA077E7E24DBC6">5.2-3 OpenSubsetOfSpecByRadicalColumn</a></span>
 <span class="ContSS"><br /><span class="nocss">&nbsp;&nbsp;</span><a href="chap5_mj.html#X843FE034793B51B3">5.2-4 OpenSubsetOfSpecByStandardColumn</a></span>
 </div></div>
 </div>
@@ -112,7 +112,7 @@ D_{Z}( &lt;...&gt; )
 D( &lt;4&gt; )
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">B := OpenSubsetOfSpec( "[ 12,20 ]", ZZ );</span>
 D_{Z}( &lt;...&gt; )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C := OpenSubsetOfSpecByReducedColumn( "[ 3 ]", ZZ );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C := OpenSubsetOfSpecByRadicalColumn( "[ 3 ]", ZZ );</span>
 D_{Z}( &lt;...&gt; )
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">D := OpenSubsetOfSpec( "[ 12 ]", ZZ );</span>
 D_{Z}( &lt;...&gt; )
@@ -272,7 +272,7 @@ D_{Z}( &lt;...&gt; )
 D( &lt;4&gt; )
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">B := OpenSubsetOfSpec( "[ 12,20 ]", ZZ );</span>
 D_{Z}( &lt;...&gt; )
-<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C := OpenSubsetOfSpecByReducedColumn( "[ 3 ]", ZZ );</span>
+<span class="GAPprompt">gap&gt;</span> <span class="GAPinput">C := OpenSubsetOfSpecByRadicalColumn( "[ 3 ]", ZZ );</span>
 D_{Z}( &lt;...&gt; )
 <span class="GAPprompt">gap&gt;</span> <span class="GAPinput">D := OpenSubsetOfSpec( "[ 12 ]", ZZ );</span>
 D_{Z}( &lt;...&gt; )
@@ -420,15 +420,15 @@ V( &lt;7&gt; )
 false
 </pre></div>
 
-<p><a id="X7BC2DB827A5B8A59" name="X7BC2DB827A5B8A59"></a></p>
+<p><a id="X7CCA077E7E24DBC6" name="X7CCA077E7E24DBC6"></a></p>
 
-<h5>5.2-3 OpenSubsetOfSpecByReducedColumn</h5>
+<h5>5.2-3 OpenSubsetOfSpecByRadicalColumn</h5>
 
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByReducedColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByReducedColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByReducedColumn</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByListOfReducedColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
-<p><code class="code">OpenSubsetOfSpecByReducedColumn</code> assumes that the image is a radical ideal.</p>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByRadicalColumn</code>( <var class="Arg">I</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByRadicalColumn</code>( <var class="Arg">str</var>, <var class="Arg">R</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByRadicalColumn</code>( <var class="Arg">r</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<div class="func"><table class="func" width="100%"><tr><td class="tdleft"><code class="func">&#8227; OpenSubsetOfSpecByListOfRadicalColumns</code>( <var class="Arg">L</var> )</td><td class="tdright">(&nbsp;operation&nbsp;)</td></tr></table></div>
+<p><code class="code">OpenSubsetOfSpecByRadicalColumn</code> assumes that the image is a radical ideal.</p>
 
 <p><a id="X843FE034793B51B3" name="X843FE034793B51B3"></a></p>
 

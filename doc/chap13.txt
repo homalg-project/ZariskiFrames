@@ -6,13 +6,13 @@
     [4X[28XQ[x,y][128X[104X
     [4X[25Xgap>[125X [27XZF := ZariskiFrameOfAffineSpectrum( R );[127X[104X
     [4X[28XThe frame of Zariski open subsets of the affine spectrum of Q[x,y][128X[104X
-    [4X[25Xgap>[125X [27XA := OpenSubsetOfSpecByReducedColumn( HomalgMatrix( "[ x ]", 1, 1, R ) );[127X[104X
+    [4X[25Xgap>[125X [27XA := OpenSubsetOfSpecByRadicalColumn( HomalgMatrix( "[ x ]", 1, 1, R ) );[127X[104X
     [4X[28XD_{Q[x,y]}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XB := OpenSubsetOfSpec( "[ x^2 ]", R );[127X[104X
     [4X[28XD_{Q[x,y]}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XA = B;[127X[104X
     [4X[28Xtrue[128X[104X
-    [4X[25Xgap>[125X [27XC := OpenSubsetOfSpecByReducedColumn( "[ y ]", R );[127X[104X
+    [4X[25Xgap>[125X [27XC := OpenSubsetOfSpecByRadicalColumn( "[ y ]", R );[127X[104X
     [4X[28XD_{Q[x,y]}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XD := OpenSubsetOfSpec( "[ x^2*y^3 ]", R );[127X[104X
     [4X[28XD_{Q[x,y]}( <...> )[128X[104X
@@ -29,13 +29,13 @@
     [4X[28XQ[x,y][128X[104X
     [4X[25Xgap>[125X [27XZC := ZariskiCoframeOfAffineSpectrum( R );[127X[104X
     [4X[28XThe coframe of Zariski closed subsets of the affine spectrum of Q[x,y][128X[104X
-    [4X[25Xgap>[125X [27XA := ClosedSubsetOfSpecByReducedColumn( HomalgMatrix( "[ x ]", 1, 1, R ) );[127X[104X
+    [4X[25Xgap>[125X [27XA := ClosedSubsetOfSpecByRadicalColumn( HomalgMatrix( "[ x ]", 1, 1, R ) );[127X[104X
     [4X[28XV_{Q[x,y]}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XB := ClosedSubsetOfSpec( "[ x^2 ]", R );[127X[104X
     [4X[28XV_{Q[x,y]}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XA = B;[127X[104X
     [4X[28Xtrue[128X[104X
-    [4X[25Xgap>[125X [27XC := ClosedSubsetOfSpecByReducedColumn( "[ y ]", R );[127X[104X
+    [4X[25Xgap>[125X [27XC := ClosedSubsetOfSpecByRadicalColumn( "[ y ]", R );[127X[104X
     [4X[28XV_{Q[x,y]}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XD := ClosedSubsetOfSpec( "[ x^2*y^3 ]", R );[127X[104X
     [4X[28XV_{Q[x,y]}( <...> )[128X[104X

@@ -61,7 +61,7 @@
     [4X[28XD( <4> )[128X[104X
     [4X[25Xgap>[125X [27XB := OpenSubsetOfSpec( "[ 12,20 ]", ZZ );[127X[104X
     [4X[28XD_{Z}( <...> )[128X[104X
-    [4X[25Xgap>[125X [27XC := OpenSubsetOfSpecByReducedColumn( "[ 3 ]", ZZ );[127X[104X
+    [4X[25Xgap>[125X [27XC := OpenSubsetOfSpecByRadicalColumn( "[ 3 ]", ZZ );[127X[104X
     [4X[28XD_{Z}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XD := OpenSubsetOfSpec( "[ 12 ]", ZZ );[127X[104X
     [4X[28XD_{Z}( <...> )[128X[104X
@@ -220,7 +220,7 @@
     [4X[28XD( <4> )[128X[104X
     [4X[25Xgap>[125X [27XB := OpenSubsetOfSpec( "[ 12,20 ]", ZZ );[127X[104X
     [4X[28XD_{Z}( <...> )[128X[104X
-    [4X[25Xgap>[125X [27XC := OpenSubsetOfSpecByReducedColumn( "[ 3 ]", ZZ );[127X[104X
+    [4X[25Xgap>[125X [27XC := OpenSubsetOfSpecByRadicalColumn( "[ 3 ]", ZZ );[127X[104X
     [4X[28XD_{Z}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XD := OpenSubsetOfSpec( "[ 12 ]", ZZ );[127X[104X
     [4X[28XD_{Z}( <...> )[128X[104X
@@ -368,14 +368,14 @@
     [4X[28Xfalse[128X[104X
   [4X[32X[104X
   
-  [1X5.2-3 OpenSubsetOfSpecByReducedColumn[101X
+  [1X5.2-3 OpenSubsetOfSpecByRadicalColumn[101X
   
-  [33X[1;0Y[29X[2XOpenSubsetOfSpecByReducedColumn[102X( [3XI[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfSpecByReducedColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfSpecByReducedColumn[102X( [3Xr[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XOpenSubsetOfSpecByListOfReducedColumns[102X( [3XL[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfSpecByRadicalColumn[102X( [3XI[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfSpecByRadicalColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfSpecByRadicalColumn[102X( [3Xr[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XOpenSubsetOfSpecByListOfRadicalColumns[102X( [3XL[103X ) [32X operation[133X
   
-  [33X[0;0Y[10XOpenSubsetOfSpecByReducedColumn[110X assumes that the image is a radical ideal.[133X
+  [33X[0;0Y[10XOpenSubsetOfSpecByRadicalColumn[110X assumes that the image is a radical ideal.[133X
   
   [1X5.2-4 OpenSubsetOfSpecByStandardColumn[101X
   

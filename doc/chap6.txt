@@ -42,7 +42,7 @@
   [33X[1;0Y[29X[2XClosedSubsetOfSpec[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XClosedSubsetOfSpec[102X( [3Xr[103X ) [32X operation[133X
   [33X[1;0Y[29X[2XClosedSubsetOfSpecByListOfColumns[102X( [3XL[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XClosedSubsetOfSpecByListOfReducedColumns[102X( [3XL[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfSpecByListOfRadicalColumns[102X( [3XL[103X ) [32X operation[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X object[133X
   
   [33X[0;0YConstruct  a  Zariski  closed subset (as an object in the Zariski coframe of
@@ -62,7 +62,7 @@
     [4X[28XV( <4> )[128X[104X
     [4X[25Xgap>[125X [27XB := ClosedSubsetOfSpec( "[ 12, 20 ]", ZZ );[127X[104X
     [4X[28XV_{Z}( <...> )[128X[104X
-    [4X[25Xgap>[125X [27XC := ClosedSubsetOfSpecByReducedColumn( "[ 3 ]", ZZ );[127X[104X
+    [4X[25Xgap>[125X [27XC := ClosedSubsetOfSpecByRadicalColumn( "[ 3 ]", ZZ );[127X[104X
     [4X[28XV_{Z}( <...> )[128X[104X
     [4X[25Xgap>[125X [27XD := ClosedSubsetOfSpec( "[ 12 ]", ZZ );[127X[104X
     [4X[28XV_{Z}( <...> )[128X[104X
@@ -170,13 +170,13 @@
     [4X[28Xtrue[128X[104X
   [4X[32X[104X
   
-  [1X6.2-3 ClosedSubsetOfSpecByReducedColumn[101X
+  [1X6.2-3 ClosedSubsetOfSpecByRadicalColumn[101X
   
-  [33X[1;0Y[29X[2XClosedSubsetOfSpecByReducedColumn[102X( [3XI[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XClosedSubsetOfSpecByReducedColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
-  [33X[1;0Y[29X[2XClosedSubsetOfSpecByReducedColumn[102X( [3Xr[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfSpecByRadicalColumn[102X( [3XI[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfSpecByRadicalColumn[102X( [3Xstr[103X, [3XR[103X ) [32X operation[133X
+  [33X[1;0Y[29X[2XClosedSubsetOfSpecByRadicalColumn[102X( [3Xr[103X ) [32X operation[133X
   
-  [33X[0;0Y[10XClosedSubsetOfSpecByReducedColumn[110X assumes that the image is a radical ideal.[133X
+  [33X[0;0Y[10XClosedSubsetOfSpecByRadicalColumn[110X assumes that the image is a radical ideal.[133X
   
   [1X6.2-4 ClosedSubsetOfSpecByStandardColumn[101X
   
