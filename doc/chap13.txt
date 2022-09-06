@@ -133,13 +133,13 @@
     [4X[25Xgap>[125X [27Xt := c - lc;[127X[104X
     [4X[28X( V_{Q[x,y]}( I1 ) \ V_{Q[x,y]}( J1 ) )[128X[104X
     [4X[25Xgap>[125X [27XDisplay( t );[127X[104X
-    [4X[28XV( <x+y-1,y^2-y> ) \ ∅[128X[104X
+    [4X[28XV( <x+y-1,y^2-y,x+y-1,x*y> ) \ ∅[128X[104X
     [4X[25Xgap>[125X [27XIsClosed( t );[127X[104X
     [4X[28Xtrue[128X[104X
     [4X[25Xgap>[125X [27Xz := c - c;[127X[104X
     [4X[28X( V_{Q[x,y]}( I1 ) \ V_{Q[x,y]}( J1 ) )[128X[104X
     [4X[25Xgap>[125X [27XDisplay( z );[127X[104X
-    [4X[28XV( <x*y> ) \ V( <x*y> )[128X[104X
+    [4X[28XV( <x*y> ) \ { V( <x+y-1,y^2-y> ) ∪ V( <x*y> ) }[128X[104X
     [4X[25Xgap>[125X [27Xz := StandardizedObject( z );[127X[104X
     [4X[28X( V_{Q[x,y]}( I1 ) \ V_{Q[x,y]}( J1 ) )[128X[104X
     [4X[25Xgap>[125X [27XDisplay( z );[127X[104X
