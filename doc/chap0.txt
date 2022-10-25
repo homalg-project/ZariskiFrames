@@ -7,10 +7,10 @@
                                 toric varieties [101X
   
   
-                                   2022.09-04
+                                   2022.10-01
   
   
-                               13 September 2022
+                                25 October 2022
   
   
                                 Mohamed Barakat
@@ -66,17 +66,18 @@
     1.4 [33X[0;0YAttributes[133X
       1.4-1 UnderlyingRing
       1.4-2 BaseOfFibration
-      1.4-3 Closure
-      1.4-4 ParametrizedObject
+      1.4-3 BaseOfFibration
+      1.4-4 Closure
       1.4-5 ParametrizedObject
       1.4-6 ParametrizedObject
-      1.4-7 LocallyClosedPart
-      1.4-8 DistinguishedLocallyClosedPart
+      1.4-7 ParametrizedObject
+      1.4-8 LocallyClosedPart
       1.4-9 DistinguishedLocallyClosedPart
       1.4-10 DistinguishedLocallyClosedPart
-      1.4-11 AffineApproximation
-      1.4-12 CanonicalObject
-      1.4-13 RabinowitschCover
+      1.4-11 DistinguishedLocallyClosedPart
+      1.4-12 AffineApproximation
+      1.4-13 CanonicalObject
+      1.4-14 RabinowitschCover
     1.5 [33X[0;0YOperations[133X
       1.5-1 AClosedSuperset
       1.5-2 BestUnderlyingColumn

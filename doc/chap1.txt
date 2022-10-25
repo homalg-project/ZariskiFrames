@@ -55,16 +55,16 @@
   
   [33X[1;0Y[29X[2XBaseOfFibration[102X( [3Xarg[103X ) [32X attribute[133X
   
-  [1X1.4-3 Closure[101X
+  [1X1.4-3 BaseOfFibration[101X
+  
+  [33X[1;0Y[29X[2XBaseOfFibration[102X( [3Xarg[103X ) [32X attribute[133X
+  
+  [1X1.4-4 Closure[101X
   
   [33X[1;0Y[29X[2XClosure[102X( [3XA[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Yan object in the Zariski coframe[133X
   
   [33X[0;0YThe closure of [3XA[103X.[133X
-  
-  [1X1.4-4 ParametrizedObject[101X
-  
-  [33X[1;0Y[29X[2XParametrizedObject[102X( [3XA[103X ) [32X attribute[133X
   
   [1X1.4-5 ParametrizedObject[101X
   
@@ -74,13 +74,13 @@
   
   [33X[1;0Y[29X[2XParametrizedObject[102X( [3XA[103X ) [32X attribute[133X
   
-  [1X1.4-7 LocallyClosedPart[101X
+  [1X1.4-7 ParametrizedObject[101X
+  
+  [33X[1;0Y[29X[2XParametrizedObject[102X( [3XA[103X ) [32X attribute[133X
+  
+  [1X1.4-8 LocallyClosedPart[101X
   
   [33X[1;0Y[29X[2XLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
-  
-  [1X1.4-8 DistinguishedLocallyClosedPart[101X
-  
-  [33X[1;0Y[29X[2XDistinguishedLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
   
   [1X1.4-9 DistinguishedLocallyClosedPart[101X
   
@@ -90,15 +90,19 @@
   
   [33X[1;0Y[29X[2XDistinguishedLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
   
-  [1X1.4-11 AffineApproximation[101X
+  [1X1.4-11 DistinguishedLocallyClosedPart[101X
+  
+  [33X[1;0Y[29X[2XDistinguishedLocallyClosedPart[102X( [3XA[103X ) [32X attribute[133X
+  
+  [1X1.4-12 AffineApproximation[101X
   
   [33X[1;0Y[29X[2XAffineApproximation[102X( [3XA[103X ) [32X attribute[133X
   
-  [1X1.4-12 CanonicalObject[101X
+  [1X1.4-13 CanonicalObject[101X
   
   [33X[1;0Y[29X[2XCanonicalObject[102X( [3XA[103X ) [32X attribute[133X
   
-  [1X1.4-13 RabinowitschCover[101X
+  [1X1.4-14 RabinowitschCover[101X
   
   [33X[1;0Y[29X[2XRabinowitschCover[102X( [3XA[103X ) [32X attribute[133X
   [6XReturns:[106X  [33X[0;10Ya [5XCAP[105X object[133X
